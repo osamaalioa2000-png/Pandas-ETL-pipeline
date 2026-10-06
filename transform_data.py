@@ -46,12 +46,10 @@ df.loc[~df["Category"].isna(), "Category"] = df.loc[~df["Category"].isna(), "Cat
 df.loc[df["Product"] == "Smartwatch", "Category"] = "Wearables"
 df.loc[df["Product"] == "Headphones", "Category"] = "Accessories"
 df.loc[(df["Product"] == "Laptop") | (df["Product"] == "Smartphone") | (df["Product"] == "Tablet"), "Category"] = "Electronics"
-# print(df["Category"].unique())
 
 # Quantity
 df.loc[df["Quantity"].fillna("1").str.isalpha(), "Quantity"] = df["Quantity"].apply(wton)
 df["Quantity"] = pd.to_numeric(df["Quantity"].str.replace(r"[^0-9-]", "", regex=True), errors="coerce")
-# print(df["Quantity"].unique())
 
 # UnitPrice
 df.loc[df["UnitPrice"].str.contains(r"[(USD)($)]", na=False, regex=True), "Currency"] = "USD"
@@ -60,7 +58,6 @@ df["UnitPrice"] = df["UnitPrice"].str.replace(r"[^0-9,.]", "", regex=True)
 # df["UnitPrice"] = df["UnitPrice"].str.replace(r",", ".", regex=True).str.split(".").apply(lambda x: "".join(x[:-1]) + "." + x[-1] + "0" * (2 - len(x[-1])) if type(x) != float else x).astype(float)
 df["UnitPrice"] = df["UnitPrice"].str.replace(r",", ".", regex=True)
 df["UnitPrice"] = pd.to_numeric(df["UnitPrice"], errors="coerce")
-# print(df["UnitPrice"].unique())
 
 # Discount
 df["Discount"] = df["Discount"].str.replace(r"[% ]", "", regex=True).astype(float)
@@ -69,7 +66,6 @@ df["Discount"] = df["Discount"].fillna("nan")
 df.loc[df["Discount"] != "nan", "Discount"] = df["Discount"].astype(str) + "%"
 df["Discount"] = df["Discount"].replace("nan", np.nan)
 # df.loc[~df["Discount"].isna(), "Discount"] = df.loc[~df["Discount"].isna(), "Discount"].astype(str) + "%"
-# print(df["Discount"].unique())
 
 # Total
 # print((df["Quantity"]) * (df["UnitPrice"]) * (1 - (df["Discount"].str[:-1].astype(float) / 100)))
@@ -80,13 +76,11 @@ df["PaymentMethod"] = df["PaymentMethod"].str.lower().str.replace(r" ", "", rege
 df.loc[df["PaymentMethod"].str.contains(r"(credit)|(cc)", na=False, regex=True), "PaymentMethod"] = "credit card"
 df.loc[df["PaymentMethod"].str.contains(r"(debit)", na=False, regex=True), "PaymentMethod"] = "debit card"
 df["PaymentMethod"] = df["PaymentMethod"].apply(lambda x: x[0].upper() + x[1:] if type(x) == str else x)
-# print(df["PaymentMethod"].unique())
 
 # Region
 m = {"n" : "North", "s" : "South", "e" : "East", "w" : "West"}
 # df["Region"] = df["Region"].str.lower().str.replace(r"[^a-z]", "", regex=True).loc[~df["Region"].isna()].apply(lambda x: m[x] if len(x) == 1 else x[0].upper() + x[1:])
 df["Region"] = df["Region"].str.lower().replace(r"[^a-z]", "", regex=True).map(m).fillna(df["Region"].str.capitalize())
-print(df["Region"])
 
 # Email
 df["Email"] = df["Email"].str.replace("at", "@")
@@ -95,19 +89,16 @@ df["Email"] = df["Email"].str.replace(" ", "")
 df["Email"] = df["Email"].str.replace(r"[][()]", "", regex=True)
 m = {"example" : ".com", "retailco" : ".io", "mail" : ".org", "shop" : ".net"}
 df.loc[~df["Email"].str.contains(r"(.com)|(.io)|(.org)|(.net)", na=False, regex=True), "Email"] = df.loc[~df["Email"].str.contains(r"(.com)|(.io)|(.org)|(.net)", na=False, regex=True), "Email"].apply(lambda x: x + m[x[x.index("@") + 1:]] if type(x) == str else x)
-# print(df["Email"].apply(lambda x: x[x.index("@") + 1:] if type(x) == str else x).unique())
-# print(df["Email"].unique())
 
 # filling CustomerID from Email
 df.loc[df["CustomerID"].isna(), "CustomerID"] = df["Email"].replace(r"[^0-9]", "", regex=True)
-# print((df["CustomerID"] == df["Email"].replace(r"[^0-9]", "", regex=True)).value_counts())
 
 # Returned
 df["Returned"] = df["Returned"].str.lower().map({"true" : "Yes", "false" : "No", "yes" : "Yes", "no" : "No"})
 
 # Notes
-# print(df["Notes"].unique())
+df['Notes'] = df['Notes'].fillna('')
+df['Notes'] = df['Notes'].str.replace('—', '')
+df['Notes'] = df['Notes'].str.replace('asap', 'ASAP')
+df['Notes'] = df['Notes'].apply(lambda x: ' '.join([i[0].upper() + i[1:] for i in x.split() if len(x) > 0]))
 
-print(df.columns)
-print(df1, "\n")
-print(df)
