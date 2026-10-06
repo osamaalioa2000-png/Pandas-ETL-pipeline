@@ -1,17 +1,14 @@
-​custom Python ETL Pipeline using Pandas to ingest a messy, multi-source dataset, and apply automated cleansing and standardization protocols, reducing prep time by ~80%, and producing clean, uniform processed datasets usable to support decision-making and business analytics. 
+​Custom Python ETL Pipeline using Pandas to ingest a messy, multi-source dataset, and apply automated cleansing and standardization protocols, reducing prep time by ~80%, and producing clean, uniform processed datasets usable to support decision-making and business analytics. 
 
-Project Objectives & Technical Execution:
-Automated Data Cleansing:
-leveraging the powerful Pandas library and regular expressions (regex) to detect and sanitize missing or duplicate data entries.
+## Key Operations
+**Flawed Data Detection**:
+Detecting missing or unformatted data using the Pandas "loc" function to apply filters constructed using regular expressions (regex).
 
-Standardized formatting of multi-source data entries:
-Applied unified structural schema logic across all data entries, ensuring consistent formatting for analytical operations, minimizing processing errors. 
+**Sanitization and Standardized Formatting of Flawed Data Entries**:
+Executed vectorized operations to sanitize missing data and applied unified structural schema across all data entries using Pandas methods such as replace, apply and fillna with regular expressions.
 
-## Tools & Tech Stack
+## Tools Used
 * **Language:** Python 3.x
-* **Libraries:** Pandas, NumPy, Regex (`re`)
-* **Dataset:** csv
+* **Libraries:** Pandas, Regex (`re`)
+* **Dataset:** retail_sales_messy.csv
 * **Environment:** Notepad++
-
-* ##Repository Structure
-* 
