@@ -9,6 +9,6 @@ Executed vectorized operations to sanitize missing data and applied unified stru
 
 ## Tools Used
 * **Language:** Python 3.x
-* **Libraries:** Pandas, Regex (`re`)
+* **Libraries:** Pandas, Regex (`re`), Numpy, Word2Number
 * **Dataset:** retail_sales_messy.csv
 * **Environment:** Notepad++
