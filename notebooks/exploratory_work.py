@@ -118,7 +118,7 @@ df['Notes'] = df['Notes'].str.replace('asap', 'ASAP')
 df['Notes'] = df['Notes'].apply(lambda x: ' '.join([i[0].upper() + i[1:] for i in x.split() if len(x) > 0]))
 # print(df['Notes'].unique())
 
-df.to_csv("cleaned_data.csv")
+# df.to_csv("cleaned_data.csv")
 # print(df.columns)
 # print(df1, "\n")
 # print(df)
