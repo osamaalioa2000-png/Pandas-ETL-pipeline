@@ -1,53 +1,29 @@
-# Pandas ETL Pipeline
-
-An ETL pipeline built with Pandas to clean, standardize, and transform a messy retail sales dataset into a structured format ready for analysis.
-
-This project focuses on automating quality checks and normalization tasks such as detecting malformed values, filling missing entries, and converting multi-source data into a consistent schema.
-
 ## Overview
-
-The dataset used in this project contains messy, multi-source retail sales records with inconsistent formatting, missing values, and invalid entries. The pipeline applies automated sanitization processes to detect flaws and standardize them before producing a clean dataset suitable for analysis.
-
-The goal is to reduce manual data preparation time and improve data consistency with a repeatable ETL workflow.
+​Custom Python ETL Pipeline using Pandas to ingest a messy, multi-source dataset, and apply automated cleansing and standardization protocols, reducing prep time by ~80%, and producing clean, uniform processed datasets usable to support decision-making and business analytics. 
 
 ## Key Operations
+**Flawed Data Detection**:
+Detecting missing or unformatted data using the Pandas "loc" function to apply filters constructed using regular expressions (regex).
 
-### 1. Flawed Data Detection
-The pipeline identifies:
-- Missing values
-- Inconsistent formatting
-- Invalid entries
-- Unstandardized numeric and categorical values
+**Sanitization and Standardized Formatting of Flawed Data Entries**:
+Executed vectorized operations to sanitize missing data and applied unified structural schema across all data entries using Pandas methods such as replace, apply and fillna with regular expressions.
 
-This is implemented using Pandas filtering techniques and regular expressions (regex) to detect entries that do not conform to the expected schema.
+## Tools Used
+* **Language:** Python 3.x
+* **Libraries:** Pandas, Regex (`re`), Numpy, Word2Number
+* **Dataset:** retail_sales_messy.csv
+* **Environment:** Notepad++
 
-### 2. Data Sanitization and Standardization
-The project transforms flawed values into a uniform format using vectorized Pandas operations, including:
-- `replace()`
-- `fillna()`
-- `apply()`
-- regex-based cleaning
-- value normalization for dates, numbers, and text fields
+## How to Run
+1. Clone the Repository:
+   ```bash
+   git clone [https://github.com/osamaalioa2000-png/Pandas-ETL-pipeline.git]
+    
+2. Install Dependencies:
+   ```bash
+   pip install pandas numpy word2number
 
-This helps convert messy entries into a consistent schema that is ready for analysis or reporting.
+3. Run the ETL Script:
+   ```bash
+   python transform_data.py
 
-## Tools and Technologies
-
-- Language: Python 3.x
-- Libraries:
-  - Pandas
-  - NumPy
-  - `re` (Regular Expressions)
-  - Word2Number
-- Dataset: `retail_sales_messy.csv`
-- Editor: Notepad++
-
-## Project Structure
-
-```text
-Pandas-ETL-pipeline/
-├── transform_data.py
-├── retail_sales_messy.csv
-├── README.md
-└── output/
-    └── cleaned_dataset.csv
