@@ -1,0 +1,3 @@
+pandas
+numpy
+word2number
