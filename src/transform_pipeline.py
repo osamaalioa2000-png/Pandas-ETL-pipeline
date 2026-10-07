@@ -2,7 +2,7 @@ import pandas as pd
 import numpy as np
 from word2number import w2n
 
-def wton(n):
+def wtn(n):
 	try:
 		return str(w2n.word_to_num(n))
 		
@@ -48,7 +48,7 @@ df.loc[df['Product'] == 'Headphones', 'Category'] = 'Accessories'
 df.loc[(df['Product'] == 'Laptop') | (df['Product'] == 'Smartphone') | (df['Product'] == 'Tablet'), 'Category'] = 'Electronics'
 
 # Quantity
-df.loc[df['Quantity'].fillna('1').str.isalpha(), 'Quantity'] = df['Quantity'].apply(wton)
+df.loc[df['Quantity'].fillna('1').str.isalpha(), 'Quantity'] = df['Quantity'].apply(wtn)
 df['Quantity'] = pd.to_numeric(df['Quantity'].str.replace(r'[^0-9-]', '', regex=True), errors='coerce')
 
 # UnitPrice
