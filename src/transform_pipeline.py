@@ -36,13 +36,13 @@ df['CustomerID'] = df['CustomerID'].str.replace(r'[^0-9]', '', regex=True)
 # Product
 df['Product'] = df['Product'].str.lower().str.replace(r'[^a-z]', '', regex=True)
 df['Product'] = df['Product'].str.strip().str.lower().replace({'tabllet' : 'tablet', 'lapptop' : 'laptop'})
-df.loc[~df['Product'].isna(), 'Product'] = df.loc[~df['Product'].isna(), 'Product'].apply(lambda x: x[0].upper() + x[1:])
+df.loc[~df['Product'].isna(), 'Product'] = df.loc[~df['Product'].isna(), 'Product'].str.capitalize()
 
 # Category
 df['Category'] = df['Category'].str.strip().str.lower().replace({'acc' : 'accessories'})
 df.loc[df['Category'].str[-1] != 's', 'Category'] += 's'
 df.loc[df['Category'] == 'electrnics', 'Category'] = 'electronics'
-df.loc[~df['Category'].isna(), 'Category'] = df.loc[~df['Category'].isna(), 'Category'].apply(lambda x: x[0].upper() + x[1:])
+df.loc[~df['Category'].isna(), 'Category'] = df.loc[~df['Category'].isna(), 'Category'].str.capitalize()
 df.loc[df['Product'] == 'Smartwatch', 'Category'] = 'Wearables'
 df.loc[df['Product'] == 'Headphones', 'Category'] = 'Accessories'
 df.loc[(df['Product'] == 'Laptop') | (df['Product'] == 'Smartphone') | (df['Product'] == 'Tablet'), 'Category'] = 'Electronics'
@@ -69,7 +69,7 @@ df['Discount'] = df['Discount'].replace('nan', np.nan)
 df['PaymentMethod'] = df['PaymentMethod'].str.lower().str.replace(r' ', '', regex=True)
 df.loc[df['PaymentMethod'].str.contains(r'(credit)|(cc)', na=False, regex=True), 'PaymentMethod'] = 'credit card'
 df.loc[df['PaymentMethod'].str.contains(r'(debit)', na=False, regex=True), 'PaymentMethod'] = 'debit card'
-df['PaymentMethod'] = df['PaymentMethod'].apply(lambda x: x[0].upper() + x[1:] if type(x) == str else x)
+df['PaymentMethod'] = df['PaymentMethod'].str.capitalize()
 
 # Region
 m = {'n' : 'North', 's' : 'South', 'e' : 'East', 'w' : 'West'}
@@ -92,6 +92,5 @@ df['Returned'] = df['Returned'].str.lower().map({'true' : 'Yes', 'false' : 'No',
 # Notes
 df['Notes'] = df['Notes'].fillna('')
 df['Notes'] = df['Notes'].str.replace('—', '')
+df['Notes'] = df['Notes'].str.capitalize()
 df['Notes'] = df['Notes'].str.replace('asap', 'ASAP')
-df['Notes'] = df['Notes'].apply(lambda x: ' '.join([i[0].upper() + i[1:] for i in x.split() if len(x) > 0]))
-
