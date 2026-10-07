@@ -55,7 +55,6 @@ df["Quantity"] = pd.to_numeric(df["Quantity"].str.replace(r"[^0-9-]", "", regex=
 df.loc[df["UnitPrice"].str.contains(r"[(USD)($)]", na=False, regex=True), "Currency"] = "USD"
 df.loc[df["UnitPrice"].str.contains(r"€", na=False), "Currency"] = "EU"
 df["UnitPrice"] = df["UnitPrice"].str.replace(r"[^0-9,.]", "", regex=True)
-# df["UnitPrice"] = df["UnitPrice"].str.replace(r",", ".", regex=True).str.split(".").apply(lambda x: "".join(x[:-1]) + "." + x[-1] + "0" * (2 - len(x[-1])) if type(x) != float else x).astype(float)
 df["UnitPrice"] = df["UnitPrice"].str.replace(r",", ".", regex=True)
 df["UnitPrice"] = pd.to_numeric(df["UnitPrice"], errors="coerce")
 
@@ -65,11 +64,6 @@ df.loc[df["Discount"] <= 1, "Discount"] *= 100
 df["Discount"] = df["Discount"].fillna("nan")
 df.loc[df["Discount"] != "nan", "Discount"] = df["Discount"].astype(str) + "%"
 df["Discount"] = df["Discount"].replace("nan", np.nan)
-# df.loc[~df["Discount"].isna(), "Discount"] = df.loc[~df["Discount"].isna(), "Discount"].astype(str) + "%"
-
-# Total
-# print((df["Quantity"]) * (df["UnitPrice"]) * (1 - (df["Discount"].str[:-1].astype(float) / 100)))
-# print(df[["Quantity", "UnitPrice", "Discount", "Total"]])
 
 # PaymentMethod
 df["PaymentMethod"] = df["PaymentMethod"].str.lower().str.replace(r" ", "", regex=True)
@@ -79,7 +73,6 @@ df["PaymentMethod"] = df["PaymentMethod"].apply(lambda x: x[0].upper() + x[1:] i
 
 # Region
 m = {"n" : "North", "s" : "South", "e" : "East", "w" : "West"}
-# df["Region"] = df["Region"].str.lower().str.replace(r"[^a-z]", "", regex=True).loc[~df["Region"].isna()].apply(lambda x: m[x] if len(x) == 1 else x[0].upper() + x[1:])
 df["Region"] = df["Region"].str.lower().replace(r"[^a-z]", "", regex=True).map(m).fillna(df["Region"].str.capitalize())
 
 # Email
