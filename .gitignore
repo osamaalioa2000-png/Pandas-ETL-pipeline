@@ -1,0 +1,19 @@
+# Python bytecode & cache files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints
+
+# Virtual environments
+venv/
+env/
+.venv/
+
+# Operating system junk files
+.DS_Store
+Thumbs.db
+
+# Environment variables & secrets (e.g., API keys, passwords)
+.env
