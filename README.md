@@ -1,6 +1,3 @@
-
-   
-
 # Pandas ETL Pipeline
 
 An ETL pipeline built with Pandas to clean, standardize, and transform a messy retail sales dataset into a structured format ready for analysis.
