@@ -14,8 +14,7 @@ def wtn(n):
 def transform(input_path):
 	df = pd.read_csv(input_path)
 	df = df.drop_duplicates()
-	df1 = df.copy()
-
+	
 	# TransactionID
 	# standardizing format
 	df['TransactionID'] = df['TransactionID'].str.replace(r'[^0-9]', '', regex=True)
@@ -38,7 +37,7 @@ def transform(input_path):
 	dates1 = dates1.replace(wn)
 	dates2 = dates2.replace(wn)
 	# find dates that are in y-d-m format and reform them to y-m-d format
-	ydm_format = dates1.astype(float) > 12
+	ydm_format = pd.to_numeric(dates1, errors='coerce') > 12
 	temp = dates1.loc[ydm_format]
 	dates1.loc[ydm_format] = dates2.loc[ydm_format]
 	dates2.loc[ydm_format] = temp
@@ -97,7 +96,7 @@ def transform(input_path):
 	# Region
 	# standardizing format
 	m = {'n' : 'North', 's' : 'South', 'e' : 'East', 'w' : 'West'}
-	df['Region'] = df['Region'].str.lower().replace(r'[^a-z]', '', regex=True).map(m)
+	df['Region'] = df['Region'].str.lower().replace(r'[^a-z]', '', regex=True).replace(m).str.capitalize()
 
 	# Email
 	# standardizing format
@@ -110,7 +109,7 @@ def transform(input_path):
 	no_domain = ~df['Email'].str.contains(r'\.(?:com|io|org|net)$', na=False, regex=True)
 	for i in range(len(m1)):
 		mask = no_domain & (df['Email'].str.contains(m1[i], na=False))
-		df.loc[mask, 'Email'] = df.loc[no_domain, 'Email'] + m2[i]
+		df.loc[mask, 'Email'] = df.loc[mask, 'Email'] + m2[i]
 		
 	
 	# extracting customerIDs from emails and filling missing CustomerID entries
@@ -131,7 +130,7 @@ def transform(input_path):
 	df['Notes'] = df['Notes'].str.capitalize()
 	df['Notes'] = df['Notes'].str.replace('asap', 'ASAP')
 
-	df.to_csv(input_path + '_cleaned')
+	df.to_csv('cleaned_' + input_path)
 	
 
-transform('retail_sales_messy.csv')
+transform('retail_sales.csv')
