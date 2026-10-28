@@ -1,0 +1,316 @@
+TransactionID,Date,CustomerID,Product,Category,Quantity,UnitPrice,Discount,PaymentMethod,Region,Email,Returned,Notes
+TX-1001,22/04/2023,,Laptop,Wearables,5,USD 254.11,0.15,debit card,north,user2702[at](mail),false,delivered — asap
+TX-1002,11 - 04 - 2023,,Smartphone,Wearables,10,USD 789.28,0%,Credit Card,NORTH,user2381@shop,false,handle with care
+TXN_1003,2023-sep-28,,Smartwatch,Accessories,-2,"€258,77",0.15,DEBIT,east,user4757@retailco,true,needs review asap
+1004#,24/10/2023,CUST-2902,Headphones,Wearables,-2,USD 1127.17,0.15,debit card,south,user8260[at](retailco),true,urgent delivery asap
+1005#,28/04/2023,CUST-9807,Laptop,Accessories,one,"$1,102.07",15%,DEBIT,north,user9630atretailcodotcom,,handle with care
+1006#,2023-03-14,ID_7078,Smartphone,electrnics,5,"$1,159.43",0.00,Credit Card,east,user1575@mail,false,needs review asap
+TX-1007,03 - 24 - 2023,9850,Laptop,Electronics,4,509.17,25%,cc,w,user8801@shop,no,— call customer
+TX-1008,2023-20-07,3531,Headphones,electrnics,-1,$415.25,0.00,Credit Card,east,user9987[at](shop),,handle with care
+1009,2023-16-05,ID_9017,Tablet,Wearables,-2,$401.79,20%,Credit Card,NORTH,user9835@retailco.com,true,delivered — asap
+TX-1010,2023-07-28,CUST-5583,Laptop,electrnics,2,USD 749.26,25%,debit card,NORTH,user8126@mail,yes,needs review asap
+TX-1011,08/08/2023,4559,Smartwatch,Accessories,10,"€92,6",25%,debit card,west,user8891atretailcodotcom,,urgent delivery asap
+TX-1012,08 - 12 - 2023,4868,Laptop,Wearables,three,USD 557.85,0.25,debit,e,user8239@mail,true,handle with care
+1013#,2023-04-08,,Smartwatch,acc,-1,"$1,162.26",10%,cc,south,user7753[at](mail),yes,needs review asap
+1014#,2023-nov-07,ID_9920,Headphones,electrnics,3,$350.32,0.15,credit card,NORTH,user5973atexampledotcom,,urgent delivery asap
+TX-1015,2023-06-09,7523,Smartwatch,Accessories,-2,$75.62,10%,debit card,NORTH,user9574@retailco,,— call customer
+1016#,2023-25-05,3001,tabllet,Wearables,1,374.38,0%,cc,west,user5698atshopdotcom,yes,delivered — asap
+1017,27-nov-2023,,Headphones,Wearables,four,"€552,32",0.10,cc,north,user9059@shop,no,handle with care
+1018#,2023-06-01,CUST-1349,Smartphone,Accessories,2,$276.65,0.20,DEBIT,north,user1149@shop,no,— call customer
+1019,06-may-2023,CUST-4990,tabllet,acc,5,833.77,0.10,DEBIT,south,user4788@example,true,
+TXN_1020,2023-05-02,CUST-4362,lapptop,Wearables,three,"€344,53",0.25,DEBIT,east,user4089@shop.com,true,delivered — asap
+TX-1021,10 - 14 - 2023,ID_4394,Headphones,electrnics,2,USD 630.22,0.10,debit,e,user7467[at](retailco),,delivered — asap
+1022#,12 - 26 - 2023,4817,tabllet,electrnics,5,$414.17,15%,debit card,s,user7385[at](shop),true,delivered — asap
+1023,20-jul-2023,1046,Tablet,Electronics,4,$861.59,5%,debit card,w,user5308@example.com,yes,delivered — asap
+TXN_1024,13-feb-2023,CUST-3370,Tablet,acc,1,$758.04,15%,cc,west,user4924@mail,true,urgent delivery asap
+TXN_1025,2023-04-09,CUST-3858,Tablet,acc,-1,$277.22,0.05,DEBIT,e,user9715@mail.com,true,— call customer
+1026#,2023-12-14,CUST-1422,Tablet,Wearables,four,"$1,431.58",5%,DEBIT,s,user4080[at](example),,
+1027#,26-sep-2023,,Smartphone,Wearables,5,USD 1316.72,0.00,debit card,w,user3238atmaildotcom,false,handle with care
+TXN_1028,2023-19-11,ID_4898,Tablet,electrnics,-1,USD 1162.56,5%,debit,NORTH,user8460@shop,,delivered — asap
+TX-1029,2023-06-14,3854,Headphones,acc,4,497.68,0.25,debit,east,user9060@retailco,,handle with care
+TX-1030,11-nov-2023,,Smartwatch,acc,5,"€21,87",0%,debit,south,user1317atretailcodotcom,yes,needs review asap
+1031,2023-06-22,CUST-9619,Smartwatch,Electronics,four,USD 444.48,25%,debit card,NORTH,user9764[at](example),no,— call customer
+TX-1032,10-dec-2023,8802,Headphones,Accessories,3,"€1111,97",0.20,debit card,n,user2675@mail,true,— call customer
+TXN_1033,2023-may-22,ID_9408,Smartwatch,Accessories,10,701.25,0.20,debit,e,user3048atshopdotcom,false,delivered — asap
+TXN_1034,2023-22-06,,Laptop,acc,10,"€1496,7",25%,Credit Card,east,user4814[at](example),true,delivered — asap
+TXN_1035,05/09/2023,ID_1710,Tablet,Wearables,2,"€1101,37",0%,credit card,n,user1241[at](shop),,— call customer
+TX-1036,2023-jul-22,9543,Laptop,Wearables,5,234.34,0.00,cc,s,user6601@shop,false,handle with care
+1037,24/11/2023,CUST-1510,Laptop,Electronics,five,USD 45.63,15%,DEBIT,e,user9165@mail.com,false,
+TX-1038,10 - 19 - 2023,7580,Smartwatch,Accessories,3,$957.55,0.10,Credit Card,west,user1519atmaildotcom,,needs review asap
+1039,2023-07-18,ID_9032,tabllet,acc,-1,"$1,426.98",5%,credit card,east,user3393@example,yes,— call customer
+TX-1040,10/05/2023,CUST-2204,Laptop,Wearables,-1,1140.8,0.25,debit card,s,user7429@example.com,true,
+TXN_1041,26-jul-2023,CUST-3430,Laptop,acc,three,USD 1275.02,0.10,cc,s,user3975@retailco,true,handle with care
+TXN_1042,10 - 21 - 2023,,Laptop,Electronics,1,"€164,88",0.00,Credit Card,north,user7251atexampledotcom,false,urgent delivery asap
+1043#,2023-aug-15,ID_9984,Headphones,acc,4,$635.53,0.10,cc,w,user5078@shop.com,no,delivered — asap
+TX-1044,07-nov-2023,9692,Headphones,Accessories,-1,"€1459,11",25%,debit card,south,user5049[at](example),yes,urgent delivery asap
+TX-1045,2023-18-08,CUST-8048,Laptop,Accessories,-2,"$1,070.36",0.00,DEBIT,s,user8550[at](example),,— call customer
+1046#,11 - 03 - 2023,ID_2874,Laptop,Wearables,3,"€75,41",20%,DEBIT,n,user8746@shop,,handle with care
+TXN_1047,2023-23-09,4522,Smartphone,Electronics,three,1346.96,0.00,credit card,east,user6293atretailcodotcom,yes,handle with care
+TX-1048,27/02/2023,4743,Laptop,electrnics,-1,USD 1054.26,15%,DEBIT,east,user9534@example,,handle with care
+1049#,10/11/2023,8430,Smartwatch,Wearables,1,$693.10,0.05,credit card,NORTH,user8884[at](mail),true,handle with care
+TX-1050,2023-04-05,2557,Tablet,Accessories,five,"€875,35",0.20,credit card,north,user6905[at](example),yes,— call customer
+1051,2023-jan-08,5176,Smartphone,Electronics,-1,959.45,0.10,Credit Card,n,user2850@retailco.com,yes,delivered — asap
+TXN_1052,2023-10-28,CUST-8770,Smartphone,acc,4,$121.50,10%,DEBIT,e,user6316[at](example),yes,urgent delivery asap
+1053,2023-19-08,,Laptop,electrnics,4,"€658,12",0.20,credit card,west,user5523@example.com,yes,needs review asap
+TXN_1054,2023-dec-23,,Laptop,electrnics,-2,USD 362.79,0.05,Credit Card,west,user4982atexampledotcom,,delivered — asap
+1055#,13/08/2023,CUST-7105,Laptop,Accessories,3,1277.86,15%,Credit Card,n,user8786@retailco,no,handle with care
+TXN_1056,2023-13-03,ID_6400,Headphones,Electronics,-1,USD 1054.08,0%,debit,w,user2466[at](retailco),,— call customer
+TXN_1057,2023-feb-25,,Headphones,Accessories,2,USD 483.91,0.00,Credit Card,NORTH,user9190@example,no,handle with care
+1058#,2023-27-04,ID_7929,tabllet,acc,1,"€358,08",0.20,cc,north,user1983@example,yes,delivered — asap
+TXN_1059,18/01/2023,,Smartphone,Wearables,one,$212.81,0.05,credit card,w,user3521[at](example),no,urgent delivery asap
+TX-1060,15/02/2023,6119,Laptop,Wearables,3,"€241,56",20%,Credit Card,n,user8992@retailco,no,urgent delivery asap
+1061#,22-aug-2023,,Headphones,Electronics,one,USD 679.85,25%,debit card,NORTH,user6690[at](shop),,
+1062#,09 - 20 - 2023,ID_3535,tabllet,electrnics,5,USD 615.7,0.10,Credit Card,NORTH,user1349@shop,yes,
+1063#,2023-26-08,2773,Smartwatch,Wearables,3,"€1447,31",0.15,Credit Card,w,user3207atmaildotcom,true,— call customer
+1064,15/09/2023,CUST-7022,tabllet,acc,-1,683.36,10%,debit,e,user8951@shop,yes,
+1065,2023-dec-28,4705,lapptop,Wearables,4,$404.86,0%,DEBIT,n,user9892[at](shop),no,handle with care
+TXN_1066,09/08/2023,ID_1430,tabllet,acc,2,USD 144.73,0.05,cc,south,user4057@mail,true,delivered — asap
+1067#,09-nov-2023,CUST-5381,lapptop,electrnics,10,"$1,241.32",10%,debit card,w,user8674[at](mail),no,— call customer
+TXN_1068,21/08/2023,6062,Tablet,Electronics,2,USD 330.38,25%,debit,n,user2128@retailco.com,no,— call customer
+TX-1069,2023-05-15,CUST-3972,Headphones,Accessories,1,"€231,0",25%,cc,e,user5844@mail,false,delivered — asap
+1070#,10/12/2023,CUST-7566,lapptop,acc,5,1452.92,0%,Credit Card,s,user8439@example.com,false,
+TX-1071,05 - 11 - 2023,,lapptop,Wearables,5,USD 775.05,0.05,DEBIT,north,user4039@example,false,urgent delivery asap
+TXN_1072,03/09/2023,CUST-1502,tabllet,Accessories,4,"€397,65",5%,debit card,east,user4912atmaildotcom,no,
+1073,2023-mar-08,4524,Headphones,Accessories,5,56.31,0.15,cc,south,user9830[at](shop),yes,delivered — asap
+TXN_1074,2023-19-12,CUST-6585,Tablet,acc,1,"€1283,36",0.10,debit,east,user9586[at](shop),yes,handle with care
+TX-1075,2023-feb-14,ID_6314,Smartphone,Electronics,2,$151.14,0%,Credit Card,east,user5638@mail.com,no,
+1076#,2023-jun-18,CUST-1861,Laptop,Electronics,1,"€1207,81",10%,Credit Card,w,user6276atexampledotcom,false,— call customer
+TXN_1077,02/07/2023,ID_1815,Headphones,electrnics,4,$190.97,0.15,credit card,NORTH,user9572atexampledotcom,no,needs review asap
+1078#,13-jul-2023,,Smartphone,electrnics,10,"€1247,25",15%,debit,n,user3126atretailcodotcom,yes,needs review asap
+1079,01-dec-2023,7947,Headphones,Wearables,2,204.77,0.15,debit card,s,user4310@example.com,yes,urgent delivery asap
+1080,2023-07-16,7785,tabllet,Wearables,3,$564.64,0.15,Credit Card,s,user4139atexampledotcom,,delivered — asap
+1081,2023-jun-10,CUST-9394,Headphones,electrnics,5,USD 877.66,0.25,credit card,NORTH,user7366@shop,yes,handle with care
+1082#,2023-20-07,2816,tabllet,Accessories,2,"$1,376.97",5%,DEBIT,north,user1804[at](mail),,— call customer
+TXN_1083,08 - 08 - 2023,ID_8972,Smartphone,acc,1,$42.48,0.25,cc,NORTH,user2161[at](example),no,needs review asap
+1084#,2023-07-16,CUST-1744,lapptop,Accessories,-2,304.65,5%,Credit Card,south,user9051@example.com,yes,
+1085#,2023-25-07,CUST-1897,Smartphone,Accessories,10,"$1,215.86",0.20,DEBIT,south,user1994@mail.com,,— call customer
+TXN_1086,2023-dec-06,CUST-4460,tabllet,Electronics,2,USD 1358.57,0.20,cc,north,user7046@example,yes,handle with care
+1087,20-mar-2023,5742,lapptop,electrnics,3,192.57,0.05,Credit Card,w,user9667atexampledotcom,,delivered — asap
+1088,13-jan-2023,,Laptop,Wearables,-1,85.45,0.10,cc,w,user5979[at](example),yes,— call customer
+TXN_1089,2023-10-22,CUST-8055,Smartwatch,electrnics,5,1234.31,0.25,debit,west,user9511atexampledotcom,yes,— call customer
+1090#,2023-feb-21,,Laptop,Electronics,1,749.23,0.25,cc,east,user4784[at](shop),true,
+1091#,2023-mar-28,ID_4770,Tablet,Wearables,2,"€1027,99",0.05,cc,n,user4164[at](retailco),no,handle with care
+1092,03 - 02 - 2023,CUST-6802,Smartwatch,Accessories,1,"€537,38",15%,Credit Card,north,user7802@example,no,delivered — asap
+TX-1093,11/07/2023,1693,tabllet,Wearables,five,419.72,0.15,Credit Card,e,user8515atshopdotcom,yes,— call customer
+TX-1094,08 - 11 - 2023,,Tablet,Electronics,10,"$1,326.30",0%,DEBIT,east,user3733@retailco.com,,handle with care
+TX-1095,2023-jul-09,ID_6129,tabllet,electrnics,5,"€925,02",10%,cc,NORTH,user9268[at](mail),false,— call customer
+1096#,2023-05-27,ID_7626,Laptop,acc,5,974.44,0.25,DEBIT,s,user9747@shop,,needs review asap
+1097#,2023-14-08,CUST-5743,Headphones,Accessories,4,623.87,0.25,DEBIT,NORTH,user6163@mail,yes,needs review asap
+1098,2023-15-06,CUST-6321,Headphones,Electronics,-1,USD 100.86,20%,debit,s,user7755@shop,,delivered — asap
+TX-1099,2023-11-02,ID_8538,Headphones,acc,-1,580.69,0.25,debit card,NORTH,user4943@retailco.com,true,needs review asap
+1100,2023-04-07,2443,lapptop,Electronics,2,"€307,19",0.20,credit card,north,user5162@mail.com,,delivered — asap
+1101,05/10/2023,4986,Smartphone,Electronics,four,$949.82,0.25,cc,south,user8331atshopdotcom,true,— call customer
+1102,2023-16-03,CUST-9584,Smartwatch,acc,-2,USD 1484.21,0.15,debit,s,user1567atmaildotcom,yes,urgent delivery asap
+TXN_1103,2023-oct-07,ID_6083,tabllet,Wearables,5,724.73,0.05,cc,NORTH,user9480@retailco,,needs review asap
+TX-1104,12 - 09 - 2023,CUST-6456,Smartphone,Accessories,4,USD 522.61,0.25,credit card,north,user1107[at](mail),,handle with care
+TX-1105,20-mar-2023,,Smartphone,Accessories,five,"€588,69",15%,debit card,NORTH,user4519atmaildotcom,true,handle with care
+TXN_1106,2023-12-23,ID_9693,Smartwatch,Electronics,-1,"€48,83",0.20,debit card,north,user5521atretailcodotcom,true,delivered — asap
+TXN_1107,2023-03-10,6724,lapptop,Accessories,3,USD 53.66,20%,cc,west,user1618@shop,false,urgent delivery asap
+TX-1108,10 - 01 - 2023,CUST-3419,Headphones,electrnics,2,97.3,0.25,credit card,east,user3557@retailco,,— call customer
+TXN_1109,2023-oct-22,,tabllet,acc,5,"€798,85",0.20,DEBIT,west,user7014[at](retailco),yes,
+1110,23/07/2023,ID_3842,Tablet,Electronics,1,"$1,461.23",0.15,cc,w,user5198atmaildotcom,true,handle with care
+1111#,2023-20-02,CUST-2234,tabllet,electrnics,-2,"€379,31",0.00,Credit Card,south,user7550atretailcodotcom,true,urgent delivery asap
+1112,02 - 23 - 2023,9095,Laptop,Accessories,10,$407.13,10%,debit card,west,user6319[at](shop),,handle with care
+TX-1113,2023-11-20,ID_8354,tabllet,Accessories,-1,"€1148,43",10%,debit,west,user8999@example,yes,delivered — asap
+TXN_1114,2023-10-26,ID_6295,Smartphone,Electronics,3,867.78,0.05,debit,n,user1612atshopdotcom,false,delivered — asap
+1115#,2023-jun-18,CUST-8205,Laptop,Electronics,-1,"€538,66",0.15,debit,west,user1916@mail,true,
+TX-1116,2023-11-12,5961,Smartwatch,Wearables,-1,USD 272.39,5%,credit card,s,user8115atshopdotcom,,delivered — asap
+TXN_1117,09 - 21 - 2023,ID_6766,lapptop,Electronics,1,USD 1211.25,0.15,credit card,north,user4714@example.com,,
+1118#,2023-jan-28,,Headphones,Electronics,4,"$1,371.83",15%,DEBIT,s,user1886atmaildotcom,true,— call customer
+1119#,2023-aug-04,CUST-1616,Headphones,acc,2,USD 1058.14,0.15,debit card,east,user6231@retailco,yes,delivered — asap
+TXN_1120,2023-jun-21,CUST-5703,lapptop,electrnics,4,"€1421,86",0.00,credit card,w,user9231[at](retailco),,handle with care
+1121#,2023-dec-05,ID_2479,Tablet,Electronics,10,"€849,03",0.25,DEBIT,w,user1827@shop.com,false,delivered — asap
+TX-1122,24-mar-2023,7299,tabllet,Accessories,10,1256.68,0.00,Credit Card,south,user9269[at](example),,needs review asap
+TXN_1123,09-nov-2023,1672,Headphones,Wearables,four,"€817,77",0.00,DEBIT,east,user8076@mail.com,,— call customer
+1124,2023-sep-25,4084,Headphones,Electronics,-2,$740.75,0.00,debit card,south,user3425@retailco,true,— call customer
+TX-1125,2023-21-08,CUST-9214,Headphones,electrnics,-1,"€93,69",0.20,DEBIT,NORTH,user2352atshopdotcom,true,urgent delivery asap
+TX-1126,28/06/2023,CUST-8381,Headphones,Electronics,-2,39.69,25%,debit card,NORTH,user9980@shop,yes,handle with care
+TXN_1127,2023-feb-09,ID_6626,Laptop,Wearables,4,"€11,02",0.20,Credit Card,n,user2393@shop.com,false,— call customer
+TXN_1128,2023-apr-25,,tabllet,acc,1,USD 1211.6,0.25,Credit Card,north,user3136@retailco.com,,urgent delivery asap
+1129#,2023-25-10,CUST-1641,tabllet,Accessories,2,USD 1078.24,10%,Credit Card,w,user4245@shop.com,,needs review asap
+TX-1130,2023-jun-01,ID_8199,tabllet,Accessories,1,"€98,74",0.00,cc,north,user4212[at](retailco),true,— call customer
+1131#,2023-jun-06,3600,Headphones,Wearables,5,"€884,05",15%,debit,s,user2173@mail.com,,urgent delivery asap
+TX-1132,04 - 12 - 2023,5634,Laptop,Accessories,2,USD 1163.81,0.20,DEBIT,east,user6298atexampledotcom,false,needs review asap
+TX-1133,09-jun-2023,ID_6543,Headphones,Wearables,one,USD 1441.23,0.25,debit,south,user7776@shop,true,delivered — asap
+1134,09-dec-2023,CUST-6482,Tablet,Wearables,5,1059.76,0.25,debit card,s,user6706@retailco,,delivered — asap
+TX-1135,17/01/2023,7333,Smartphone,acc,2,USD 883.16,0.00,Credit Card,NORTH,user6644@example,false,— call customer
+1136#,2023-26-02,3463,Smartphone,acc,5,"€459,63",5%,DEBIT,e,user3773@mail.com,yes,needs review asap
+1137#,18/08/2023,,Headphones,Wearables,2,1464.03,0.10,credit card,west,user3389atshopdotcom,yes,handle with care
+1138,2023-28-12,6731,Smartphone,electrnics,-1,1189.85,0.10,Credit Card,south,user4825@retailco,,— call customer
+1139#,2023-08-26,CUST-7421,Smartwatch,Accessories,-1,"€977,28",0.10,debit card,south,user3555atexampledotcom,yes,delivered — asap
+TXN_1140,10/02/2023,2388,Smartwatch,Electronics,1,USD 1063.7,0.00,debit,w,user1893[at](retailco),,handle with care
+1141,23/07/2023,CUST-6381,lapptop,Wearables,2,"€342,62",15%,cc,north,user5713@example,true,urgent delivery asap
+1142#,22-may-2023,CUST-9624,lapptop,electrnics,3,USD 573.79,0.25,Credit Card,e,user2823@mail.com,yes,delivered — asap
+1143#,16-jun-2023,ID_7937,Smartphone,Wearables,10,$199.75,15%,debit,w,user8719@example,true,needs review asap
+TXN_1144,2023-sep-12,6940,Smartwatch,acc,4,1423.69,20%,debit card,west,user4424[at](retailco),true,— call customer
+1145,12 - 18 - 2023,4509,Smartwatch,Wearables,5,"$1,277.63",0.00,debit card,w,user9952@mail.com,true,— call customer
+TXN_1146,2023-jun-23,CUST-8967,tabllet,acc,4,USD 281.3,15%,debit,w,user3315@example.com,no,needs review asap
+1147,05 - 10 - 2023,CUST-3253,Laptop,Wearables,10,"€1382,35",0.05,debit,w,user9631@example,false,delivered — asap
+1148,2023-19-04,,Tablet,electrnics,1,$963.07,0.00,Credit Card,north,user3790@example,,needs review asap
+TX-1149,2023-18-06,ID_2657,Headphones,acc,3,"€1405,66",0.00,credit card,w,user4288atmaildotcom,true,— call customer
+1150#,2023-28-04,CUST-9626,Headphones,Wearables,-1,$503.44,0.25,Credit Card,w,user8617atexampledotcom,,delivered — asap
+1151#,24-may-2023,ID_3147,Tablet,electrnics,1,USD 364.61,0.15,cc,w,user7367@mail,,
+TX-1152,09 - 20 - 2023,CUST-3658,Smartwatch,Accessories,2,$260.15,0.20,debit,w,user2767@example,true,delivered — asap
+TXN_1153,27/02/2023,ID_3712,Smartphone,electrnics,1,USD 1234.28,0.05,cc,south,user7332@retailco.com,false,handle with care
+TX-1154,05 - 08 - 2023,7731,Tablet,acc,1,USD 675.48,0.00,cc,e,user9331@example,yes,urgent delivery asap
+1155#,2023-03-10,4891,Smartwatch,Accessories,5,$322.43,0.00,credit card,s,user8940[at](example),,needs review asap
+1156#,18/12/2023,CUST-8355,Tablet,Wearables,5,$532.22,0.15,Credit Card,s,user4258atshopdotcom,no,urgent delivery asap
+TX-1157,2023-05-02,6070,lapptop,Wearables,10,"$1,083.42",0.15,DEBIT,s,user1651@retailco,,delivered — asap
+TX-1158,2023-17-09,4178,Tablet,Electronics,1,585.05,0.05,debit card,west,user6465@shop.com,false,delivered — asap
+TX-1159,2023-nov-28,8218,Headphones,electrnics,10,1453.96,0.05,cc,n,user3572@example,true,delivered — asap
+1160#,2023-02-28,ID_7256,Tablet,Electronics,three,744.69,5%,cc,NORTH,user6765@mail,,handle with care
+TX-1161,2023-oct-10,CUST-3655,Smartphone,electrnics,4,533.33,0.25,cc,n,user4869atmaildotcom,false,urgent delivery asap
+TX-1162,08 - 15 - 2023,3267,Headphones,acc,-2,161.13,0.10,cc,west,user5221atshopdotcom,yes,urgent delivery asap
+TXN_1163,03 - 02 - 2023,,Smartwatch,electrnics,4,"€1185,21",0.15,debit card,south,user5590[at](retailco),yes,needs review asap
+TX-1164,2023-08-04,ID_7081,lapptop,Accessories,10,$252.36,0.20,Credit Card,south,user6599[at](shop),false,delivered — asap
+1165#,2023-07-16,CUST-9452,Laptop,electrnics,one,"$1,200.80",5%,DEBIT,west,user2438[at](shop),no,needs review asap
+TXN_1166,2023-14-10,3626,Smartwatch,electrnics,5,USD 449.41,0.10,credit card,north,user7837[at](retailco),,handle with care
+1167,05-mar-2023,CUST-9410,lapptop,Accessories,10,$399.08,0.15,DEBIT,west,user7987@mail,false,
+1168#,03/05/2023,CUST-2502,lapptop,Electronics,5,"€120,56",0.05,cc,e,user8359[at](retailco),true,— call customer
+1169#,2023-feb-18,CUST-6727,Tablet,acc,5,"€1333,02",0.25,debit,NORTH,user3270[at](retailco),true,— call customer
+1170,20-oct-2023,ID_7495,Smartphone,acc,10,"$1,100.66",20%,debit card,north,user6062@retailco.com,no,handle with care
+1171#,25-apr-2023,CUST-7326,Smartphone,Accessories,10,513.55,0.25,DEBIT,east,user3378@retailco,,
+1172,2023-jul-15,1461,Laptop,Accessories,one,1059.71,0.10,credit card,w,user2111[at](example),true,delivered — asap
+1173,28-may-2023,CUST-6493,Tablet,Accessories,-2,"€1414,24",0.20,debit,e,user6203atretailcodotcom,yes,— call customer
+1174#,10-jul-2023,,Tablet,electrnics,2,914.9,5%,DEBIT,n,user6221@shop.com,true,urgent delivery asap
+TX-1175,02-oct-2023,ID_8740,Headphones,Wearables,3,$244.08,25%,debit,NORTH,user5970@shop,false,urgent delivery asap
+TX-1176,04/12/2023,8685,tabllet,Electronics,three,"€503,33",0.10,debit,east,user3489atretailcodotcom,false,needs review asap
+1177,11 - 07 - 2023,CUST-2298,lapptop,acc,10,USD 619.83,0.05,cc,west,user3155atretailcodotcom,,
+TXN_1178,03/11/2023,ID_3449,Smartwatch,Accessories,10,USD 994.29,0.25,Credit Card,NORTH,user5372[at](retailco),no,needs review asap
+1179,06-apr-2023,9647,Smartwatch,acc,-1,$363.95,0.05,cc,n,user4783@example,,delivered — asap
+1180,2023-02-06,,Headphones,acc,-1,595.42,0.25,DEBIT,NORTH,user2302[at](shop),,urgent delivery asap
+1181,2023-28-07,CUST-5934,Smartphone,electrnics,3,USD 238.85,25%,debit,south,user9230@shop,no,needs review asap
+TX-1182,02/05/2023,,Smartphone,electrnics,4,$15.69,0.10,credit card,east,user4014@shop.com,yes,
+TX-1183,05 - 23 - 2023,CUST-8489,Laptop,Accessories,-2,448.88,0.20,cc,e,user8763[at](retailco),yes,delivered — asap
+TX-1184,2023-dec-28,,Headphones,Wearables,10,$307.52,0.25,credit card,west,user4166atretailcodotcom,no,delivered — asap
+1185,22/02/2023,CUST-9782,Tablet,Wearables,2,USD 318.36,0.25,cc,s,user7694@example,true,
+TXN_1186,2023-19-05,ID_4963,Tablet,acc,-1,1465.82,20%,Credit Card,NORTH,user7767[at](retailco),,needs review asap
+TX-1187,04-jul-2023,,tabllet,Accessories,2,USD 1267.22,0.15,Credit Card,west,user4351[at](example),no,handle with care
+1188#,21/04/2023,CUST-6780,Laptop,acc,-2,1179.47,20%,cc,south,user8197@shop,yes,needs review asap
+1189#,27/05/2023,ID_4068,Laptop,acc,10,USD 738.75,15%,cc,n,user8496@retailco.com,no,— call customer
+1190#,02/02/2023,9576,Headphones,electrnics,3,145.79,25%,DEBIT,n,user7633@example.com,,
+1191,2023-22-05,,lapptop,Accessories,-1,285.47,0.10,Credit Card,w,user6126atshopdotcom,true,urgent delivery asap
+1192#,2023-aug-04,ID_9312,Smartwatch,electrnics,10,560.41,0.05,credit card,east,user9530@example.com,true,needs review asap
+1193,2023-25-12,7397,tabllet,acc,-1,76.48,25%,Credit Card,s,user8485[at](example),true,handle with care
+1194#,17-may-2023,,lapptop,electrnics,2,"€702,94",0.00,cc,south,user9498atshopdotcom,no,needs review asap
+TXN_1195,2023-08-15,7116,Smartwatch,electrnics,4,"$1,257.25",10%,credit card,south,user7347[at](example),,urgent delivery asap
+1196,2023-oct-02,CUST-6850,Tablet,Wearables,five,$235.18,20%,cc,north,user5770@shop.com,no,delivered — asap
+1197#,11-dec-2023,ID_2698,Headphones,electrnics,1,USD 137.7,15%,debit card,e,user5989@mail.com,yes,needs review asap
+TX-1198,2023-05-01,CUST-6447,tabllet,electrnics,2,1214.19,0.25,cc,NORTH,user3727@shop,yes,delivered — asap
+1199,22-apr-2023,,Tablet,Accessories,4,"€1456,35",0.05,Credit Card,north,user1893@retailco.com,yes,— call customer
+TX-1200,2023-21-10,ID_3868,tabllet,Wearables,1,834.87,20%,debit,w,user8400atexampledotcom,no,urgent delivery asap
+TX-1201,02/10/2023,ID_8840,tabllet,electrnics,3,1229.42,0.20,Credit Card,north,user3945@retailco.com,yes,handle with care
+TX-1202,2023-27-08,CUST-3209,tabllet,Wearables,3,1448.79,25%,Credit Card,west,user7775@mail.com,no,needs review asap
+TX-1203,06-may-2023,CUST-8498,Laptop,acc,-1,"€863,34",25%,DEBIT,south,user1408@retailco.com,true,delivered — asap
+1204#,2023-jul-21,CUST-1717,Smartphone,Wearables,1,$719.63,15%,credit card,south,user4308atshopdotcom,,handle with care
+1205#,02 - 16 - 2023,6170,Laptop,Wearables,5,$598.26,25%,DEBIT,e,user5097[at](mail),true,delivered — asap
+1206,07 - 11 - 2023,9897,Smartwatch,Electronics,3,"€758,13",20%,DEBIT,west,user3024atexampledotcom,false,delivered — asap
+1207,04/11/2023,4131,tabllet,Electronics,1,189.22,25%,DEBIT,east,user8362atmaildotcom,true,delivered — asap
+1208,2023-28-06,ID_1783,tabllet,Wearables,1,"€267,59",0.20,debit card,w,user9582[at](shop),false,needs review asap
+1209#,2023-may-22,3039,tabllet,Accessories,4,"€1458,53",0.15,credit card,east,user7204atshopdotcom,false,delivered — asap
+1210,2023-sep-02,ID_7553,Laptop,Electronics,5,198.02,0.25,cc,south,user3799[at](mail),no,— call customer
+TX-1211,02 - 11 - 2023,7334,lapptop,Wearables,3,126.77,25%,debit,south,user3656[at](retailco),yes,— call customer
+1212#,2023-jun-04,ID_9129,Smartwatch,acc,5,"€310,86",0.20,Credit Card,east,user1840@shop,yes,urgent delivery asap
+1213,2023-09-27,9507,Headphones,Accessories,-1,USD 1252.82,20%,debit,north,user6071@shop,yes,
+TX-1214,28-nov-2023,CUST-7955,Smartwatch,Accessories,5,$486.43,0.25,debit,west,user3960[at](example),true,handle with care
+1215,2023-08-14,ID_3956,lapptop,Electronics,3,139.67,0.10,cc,e,user4323@example,yes,— call customer
+TXN_1216,04 - 17 - 2023,CUST-2680,Headphones,Accessories,4,USD 832.56,25%,cc,e,user1200@shop.com,,handle with care
+1217,2023-oct-25,5843,Smartphone,Wearables,10,$784.34,0.05,debit,w,user9169@example.com,no,— call customer
+TXN_1218,2023-11-15,CUST-7981,Laptop,Accessories,4,1181.96,0%,Credit Card,s,user4897@retailco.com,yes,needs review asap
+1219,09-apr-2023,6759,Tablet,acc,-1,"€177,65",15%,cc,north,user8434@shop.com,,needs review asap
+1220,2023-mar-10,,Laptop,Accessories,10,$230.82,10%,Credit Card,w,user2300[at](example),yes,needs review asap
+1221#,2023-12-16,ID_6776,tabllet,Wearables,4,"$1,388.14",0.20,cc,NORTH,user9967[at](mail),yes,— call customer
+1222#,21-jan-2023,ID_5498,Tablet,acc,5,USD 1180.76,0%,Credit Card,east,user1801[at](retailco),true,
+TXN_1223,23/04/2023,CUST-1939,Smartphone,acc,5,USD 1318.06,0.25,DEBIT,east,user1902atmaildotcom,no,urgent delivery asap
+1224#,2023-05-18,7655,Laptop,acc,10,580.73,0%,Credit Card,w,user3381@example,,handle with care
+TX-1225,2023-09-14,CUST-3621,Smartphone,Accessories,3,862.31,0.10,debit card,e,user6424atexampledotcom,yes,handle with care
+TX-1226,2023-04-27,,lapptop,Wearables,3,USD 65.82,0.25,cc,e,user2784[at](shop),false,needs review asap
+TXN_1227,2023-17-08,CUST-8179,Tablet,Accessories,1,610.43,25%,DEBIT,west,user3643[at](mail),true,needs review asap
+TX-1228,08 - 23 - 2023,,Smartwatch,Wearables,10,USD 67.79,0.20,DEBIT,n,user8460atmaildotcom,yes,urgent delivery asap
+TX-1229,09 - 23 - 2023,7001,tabllet,Accessories,4,"$1,038.87",0.00,debit card,e,user2525@mail,yes,— call customer
+1230,2023-jul-27,ID_1530,tabllet,Electronics,-2,USD 1121.17,0.10,debit,east,user7038atshopdotcom,,delivered — asap
+1231#,2023-aug-08,8371,tabllet,Electronics,-2,"$1,346.58",0.05,Credit Card,west,user8001@example,yes,urgent delivery asap
+TX-1232,2023-sep-05,ID_2259,Headphones,electrnics,-1,USD 513.42,20%,Credit Card,e,user8713atretailcodotcom,,needs review asap
+TX-1233,20-apr-2023,,Tablet,Electronics,10,473.31,0.20,credit card,NORTH,user5496@mail.com,false,— call customer
+1234#,2023-12-05,ID_6150,lapptop,Wearables,-2,"$1,288.77",0%,cc,NORTH,user9595[at](retailco),true,handle with care
+TX-1235,2023-may-25,CUST-2858,Headphones,acc,-1,"€1459,02",0.05,debit,south,user1953atexampledotcom,,urgent delivery asap
+TX-1236,26-jun-2023,ID_9176,lapptop,Electronics,1,210.23,10%,debit,west,user8924@mail.com,true,delivered — asap
+1237#,2023-05-27,2929,Tablet,Wearables,-2,USD 1163.31,0.05,cc,north,user6185@mail,yes,— call customer
+1238,05 - 24 - 2023,CUST-8311,Smartwatch,electrnics,5,411.44,0.20,credit card,north,user3125@shop.com,,
+TX-1239,2023-28-10,ID_5678,Smartphone,electrnics,1,$911.42,0.20,credit card,NORTH,user9069[at](retailco),true,
+1240#,15-mar-2023,CUST-9047,tabllet,Wearables,three,"€290,02",25%,cc,n,user5759atretailcodotcom,true,handle with care
+TX-1241,08 - 12 - 2023,,Headphones,Wearables,three,1371.01,25%,Credit Card,east,user2936@example.com,true,delivered — asap
+TX-1242,25-sep-2023,CUST-8406,tabllet,Accessories,4,USD 1114.01,0.05,Credit Card,s,user2932@retailco.com,true,urgent delivery asap
+1243,07 - 15 - 2023,CUST-8292,tabllet,Electronics,4,"€1233,32",0.20,DEBIT,e,user7783@example,false,needs review asap
+TXN_1244,23/04/2023,ID_6236,Laptop,electrnics,one,107.77,0.05,debit,n,user6728atretailcodotcom,true,needs review asap
+TXN_1245,13/10/2023,ID_2063,tabllet,acc,3,$212.12,0.25,cc,w,user4296@mail,,delivered — asap
+1246#,07 - 02 - 2023,CUST-5914,Headphones,electrnics,2,"€268,87",0.15,Credit Card,north,user2111@mail,yes,urgent delivery asap
+TXN_1247,2023-25-12,3852,Headphones,Accessories,-1,"€1257,1",0%,credit card,west,user9301atmaildotcom,yes,delivered — asap
+1248#,2023-17-07,CUST-2988,tabllet,Wearables,-1,$59.28,0.20,cc,s,user2865@mail,,urgent delivery asap
+TXN_1249,02/08/2023,4878,Headphones,acc,-2,"€1377,87",0.00,debit,west,user7488[at](example),,
+1250,09 - 19 - 2023,,Tablet,acc,2,418.23,0.10,Credit Card,south,user4178@mail,no,urgent delivery asap
+1251#,2023-feb-28,7044,Smartwatch,Electronics,1,$762.64,0.20,Credit Card,north,user8849atshopdotcom,,urgent delivery asap
+TXN_1252,2023-feb-17,ID_3126,Smartphone,Electronics,10,"€1024,95",0%,credit card,south,user3224[at](shop),no,needs review asap
+1253,24/01/2023,2077,Tablet,Accessories,-2,564.98,25%,Credit Card,south,user8546@mail.com,,handle with care
+TXN_1254,2023-17-07,ID_8842,Smartwatch,Electronics,-2,274.6,20%,Credit Card,NORTH,user7782@example,yes,— call customer
+TX-1255,02 - 16 - 2023,ID_7708,Laptop,Electronics,4,USD 884.45,0%,credit card,NORTH,user6169[at](example),no,— call customer
+TX-1256,2023-25-06,,Laptop,Wearables,5,USD 522.93,0.20,credit card,north,user6434atmaildotcom,true,needs review asap
+1257,11 - 03 - 2023,2215,Tablet,Accessories,10,"$1,125.95",25%,debit,south,user3446atmaildotcom,,
+TX-1258,28-nov-2023,9476,lapptop,Accessories,-1,434.75,0.25,DEBIT,n,user6556[at](shop),true,delivered — asap
+TX-1259,2023-28-07,,Smartphone,Electronics,2,"€83,98",0.05,cc,east,user7382atretailcodotcom,false,needs review asap
+1260#,02-sep-2023,CUST-3981,tabllet,Electronics,-1,"€1287,1",0.15,Credit Card,s,user6050atmaildotcom,true,delivered — asap
+TXN_1261,2023-22-02,CUST-1907,Laptop,Accessories,-1,USD 1019.77,0.05,Credit Card,south,user5448atshopdotcom,true,needs review asap
+1262#,2023-04-24,CUST-5982,lapptop,Wearables,4,$980.87,0.25,credit card,w,user9143@retailco,yes,— call customer
+TXN_1263,2023-16-07,4694,Smartphone,acc,three,"$1,298.30",0.25,DEBIT,NORTH,user8404[at](mail),false,handle with care
+TX-1264,2023-22-08,9501,Headphones,acc,1,"€716,4",0.25,DEBIT,e,user9603[at](mail),,handle with care
+1265#,01 - 02 - 2023,CUST-5105,lapptop,Electronics,one,$974.58,0.00,debit,north,user2838atmaildotcom,false,needs review asap
+TXN_1266,01 - 10 - 2023,CUST-5496,Smartwatch,Wearables,-2,USD 343.42,5%,Credit Card,south,user4311@example.com,,needs review asap
+TXN_1267,14/06/2023,CUST-9740,Smartwatch,Accessories,1,USD 1071.98,25%,debit,south,user9290@example.com,yes,— call customer
+1268#,2023-apr-17,ID_3762,Laptop,acc,2,641.47,0%,debit card,NORTH,user9192[at](retailco),true,delivered — asap
+1269,22/10/2023,CUST-3526,tabllet,Electronics,1,1278.86,0.05,credit card,west,user6572@shop,no,delivered — asap
+TXN_1270,2023-03-06,ID_6531,tabllet,Accessories,10,385.48,20%,DEBIT,west,user6363atretailcodotcom,true,— call customer
+TX-1271,2023-oct-28,,Smartwatch,acc,two,460.2,0.05,Credit Card,s,user9456[at](retailco),true,
+TXN_1272,22/10/2023,CUST-2330,Tablet,Wearables,-1,$880.89,15%,debit,east,user1598@shop.com,true,
+TX-1273,19/08/2023,ID_5336,Headphones,Electronics,1,USD 772.16,0.25,cc,north,user9558atexampledotcom,false,needs review asap
+1274#,2023-21-04,ID_7825,Laptop,Accessories,5,USD 846.57,10%,debit,west,user6095atexampledotcom,false,handle with care
+TXN_1275,2023-13-08,ID_9159,Headphones,Accessories,5,$454.73,25%,debit,e,user6460atshopdotcom,,
+TX-1276,2023-18-08,5949,Tablet,acc,1,USD 727.79,0.00,debit card,e,user2689atmaildotcom,false,
+TX-1277,02 - 15 - 2023,7653,Headphones,Electronics,-1,USD 1482.66,20%,Credit Card,south,user6114@retailco,true,urgent delivery asap
+1278#,2023-26-10,CUST-1981,tabllet,acc,2,USD 1293.62,0.25,DEBIT,east,user4285@retailco,,handle with care
+TXN_1279,2023-dec-09,8933,Headphones,Wearables,3,USD 987.62,0.25,DEBIT,east,user5532@mail.com,no,delivered — asap
+TXN_1280,2023-may-07,3353,Tablet,acc,-2,"€290,66",0.10,Credit Card,s,user2927[at](mail),,delivered — asap
+1281#,04/08/2023,ID_6231,Smartwatch,electrnics,3,1350.53,0%,credit card,s,user3580atmaildotcom,false,— call customer
+TXN_1282,07 - 19 - 2023,6658,Smartwatch,electrnics,2,"€994,19",25%,debit,e,user1249[at](example),false,delivered — asap
+1283#,2023-22-10,,Smartphone,electrnics,3,1084.71,0%,cc,south,user9888@mail,false,urgent delivery asap
+TXN_1284,2023-25-01,2739,Smartphone,electrnics,2,USD 1496.23,15%,debit card,w,user5440@retailco,,needs review asap
+1285,01-may-2023,3007,Smartphone,electrnics,-1,1361.3,25%,debit,south,user5011atretailcodotcom,true,needs review asap
+TXN_1286,2023-14-11,CUST-3308,Tablet,acc,2,$588.53,0.05,cc,south,user6101@mail.com,yes,delivered — asap
+TX-1287,2023-oct-24,,Smartphone,acc,-1,"€878,71",0.05,credit card,north,user1831atretailcodotcom,,handle with care
+TX-1288,25/05/2023,CUST-7850,lapptop,acc,-2,"€521,32",20%,debit card,north,user8712atexampledotcom,,urgent delivery asap
+1289,10 - 26 - 2023,3616,lapptop,acc,4,1032.61,25%,Credit Card,east,user7284atexampledotcom,,delivered — asap
+TXN_1290,21/04/2023,CUST-6123,Smartwatch,Accessories,1,USD 1360.72,0.25,Credit Card,north,user7987[at](shop),no,delivered — asap
+TX-1291,2023-17-10,ID_9163,Laptop,electrnics,5,"€765,9",0.25,debit,west,user8304@mail,false,needs review asap
+TX-1292,2023-14-11,6055,Smartwatch,Wearables,1,"€1262,55",0.00,debit card,south,user6444atretailcodotcom,no,— call customer
+TXN_1293,2023-may-26,,Tablet,Accessories,-1,447.74,20%,cc,NORTH,user8629atretailcodotcom,yes,handle with care
+1294#,01 - 19 - 2023,9281,lapptop,electrnics,-2,USD 200.64,0%,credit card,west,user8672@example.com,yes,urgent delivery asap
+TXN_1295,2023-12-05,ID_4524,Smartwatch,Wearables,-1,"€1090,53",20%,DEBIT,east,user6085@shop.com,yes,urgent delivery asap
+1296#,2023-26-05,1828,Tablet,electrnics,-2,USD 1420.92,0.20,DEBIT,e,user4796[at](retailco),,
+1297,07/03/2023,8710,lapptop,Wearables,3,"€985,11",10%,credit card,e,user5227@mail.com,false,handle with care
+1298,12-sep-2023,2761,Headphones,Electronics,-2,USD 539.37,0.25,Credit Card,n,user4004@mail,,needs review asap
+TX-1299,09/09/2023,,Smartwatch,Electronics,5,USD 636.5,10%,Credit Card,e,user8426atshopdotcom,yes,— call customer
+TX-1300,2023-may-27,6992,lapptop,Wearables,5,USD 563.81,0.25,credit card,w,user2070atshopdotcom,true,— call customer
+1039,05 - 24 - 2023,CUST-7563,Smartphone,Accessories,five,$701.00,5%,Credit Card,north,user6758@shop.com,yes,
+TXN_1077,2023-02-15,4189,Smartphone,acc,1,$711.10,0.05,credit card,s,user3798@mail,true,needs review asap
+TXN_1280,25/03/2023,2204,lapptop,electrnics,three,"€713,61",10%,debit,w,user3087@example.com,true,delivered — asap
+1019,2023-25-11,ID_5582,Smartwatch,acc,2,755.71,0.05,DEBIT,e,user2752atmaildotcom,no,
+1190#,2023-09-12,CUST-2946,tabllet,acc,1,799.46,0.20,cc,east,user5949@shop.com,false,needs review asap
+TX-1299,07 - 01 - 2023,7453,Smartwatch,Wearables,5,"€90,55",0.20,DEBIT,s,user7773[at](retailco),true,delivered — asap
+1283#,2023-sep-04,ID_6555,Laptop,Electronics,-1,"€214,67",20%,debit card,s,user9977@retailco.com,true,needs review asap
+1076#,2023-21-06,CUST-3363,Laptop,Accessories,3,520.58,25%,debit,s,user7288@example,yes,— call customer
+1221#,2023-24-10,ID_7576,lapptop,Electronics,two,"€223,4",0%,debit card,west,user4411@shop.com,yes,handle with care
+TXN_1066,22/02/2023,,Tablet,Accessories,-1,1170.62,0.20,credit card,NORTH,user6606[at](retailco),yes,needs review asap
+1022#,01-aug-2023,,Smartwatch,acc,five,"€505,62",10%,cc,n,user2276atshopdotcom,false,handle with care
+TX-1158,11-sep-2023,ID_8761,Headphones,acc,-2,$476.99,0.25,debit,n,user8584atmaildotcom,yes,needs review asap
+TX-1187,2023-04-21,CUST-9446,Laptop,electrnics,3,USD 17.02,0%,DEBIT,east,user8294@retailco,true,delivered — asap
+TX-1021,2023-nov-27,CUST-6218,Headphones,electrnics,one,"€321,98",0.00,Credit Card,NORTH,user7648atexampledotcom,no,handle with care
+TX-1184,2023-26-12,ID_5902,lapptop,Accessories,1,"€868,66",0.10,debit card,s,user7208@mail.com,yes,urgent delivery asap
