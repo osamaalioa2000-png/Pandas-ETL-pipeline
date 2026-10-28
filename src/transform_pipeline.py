@@ -11,8 +11,8 @@ def wtn(n):
 		
 	
 
-def transform(input_path):
-	df = pd.read_csv(input_path)
+def transform(dataframe):
+	df = dataframe
 	df = df.drop_duplicates()
 	
 	# TransactionID
@@ -70,7 +70,7 @@ def transform(input_path):
 	# print(df['Quantity'])
 
 	# UnitPrice
-	# standerdizing format
+	# standerdizing format and filling missing Currency entries from UnitPrice
 	df.loc[df['UnitPrice'].str.contains(r'USD|\$', na=False, regex=True), 'Currency'] = 'USD'
 	df.loc[df['UnitPrice'].str.contains(r'€', na=False, regex=True), 'Currency'] = 'EU'
 	df['UnitPrice'] = df['UnitPrice'].str.replace(r'[^0-9,.]', '', regex=True)
@@ -129,8 +129,6 @@ def transform(input_path):
 	df['Notes'] = df['Notes'].str.replace('—', '')
 	df['Notes'] = df['Notes'].str.capitalize()
 	df['Notes'] = df['Notes'].str.replace('asap', 'ASAP')
-
-	df.to_csv('cleaned_' + input_path)
 	
-
-transform('retail_sales.csv')
+	return df
+	
