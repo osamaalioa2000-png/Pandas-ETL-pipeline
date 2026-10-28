@@ -10,9 +10,8 @@ def wtn(n):
 		return 'invalid'
 		
 	
-
 def transform(dataframe):
-	df = dataframe
+	df = dataframe.copy()
 	df = df.drop_duplicates()
 	
 	# TransactionID
