@@ -1,0 +1,316 @@
+,TransactionID,Date,CustomerID,Product,Category,Quantity,UnitPrice,Discount,PaymentMethod,Region,Email,Returned,Notes,Currency
+0,1001,2023-04-22,2702,Laptop,Electronics,5,254.11,15.0%,Debit card,North,user2702@mail.org,No,Delivered  ASAP,USD
+1,1002,2023-04-11,2381,Smartphone,Electronics,10,789.28,0.0%,Credit card,North,user2381@shop.net,No,Handle with care,USD
+2,1003,2023-09-28,4757,Smartwatch,Wearables,-2,258.77,15.0%,Debit card,East,user4757@retailco.io,Yes,Needs review ASAP,EU
+3,1004,2023-10-24,2902,Headphones,Accessories,-2,1127.17,15.0%,Debit card,South,user8260@retailco.io,Yes,Urgent delivery ASAP,USD
+4,1005,2023-04-28,9807,Laptop,Electronics,1,,15.0%,Debit card,North,user9630@retailco.com,No,Handle with care,USD
+5,1006,2023-03-14,7078,Smartphone,Electronics,5,,0.0%,Credit card,East,user1575@mail.org,No,Needs review ASAP,USD
+6,1007,2023-03-24,9850,Laptop,Electronics,4,509.17,25.0%,Credit card,West,user8801@shop.net,No, call customer,
+7,1008,2023-07-20,3531,Headphones,Accessories,-1,415.25,0.0%,Credit card,East,user9987@shop.net,Yes,Handle with care,USD
+8,1009,2023-05-16,9017,Tablet,Electronics,-2,401.79,20.0%,Credit card,North,user9835@retailco.com,Yes,Delivered  ASAP,USD
+9,1010,2023-07-28,5583,Laptop,Electronics,2,749.26,25.0%,Debit card,North,user8126@mail.org,Yes,Needs review ASAP,USD
+10,1011,2023-08-08,4559,Smartwatch,Wearables,10,92.6,25.0%,Debit card,West,user8891@retailco.com,No,Urgent delivery ASAP,EU
+11,1012,2023-12-08,4868,Laptop,Electronics,3,557.85,25.0%,Debit card,East,user8239@mail.org,Yes,Handle with care,USD
+12,1013,2023-04-08,7753,Smartwatch,Wearables,-1,,10.0%,Credit card,South,user7753@mail.org,Yes,Needs review ASAP,USD
+13,1014,2023-11-07,9920,Headphones,Accessories,3,350.32,15.0%,Credit card,North,user5973@example.com,No,Urgent delivery ASAP,USD
+14,1015,2023-06-09,7523,Smartwatch,Wearables,-2,75.62,10.0%,Debit card,North,user9574@retailco.io,Yes, call customer,USD
+15,1016,2023-05-25,3001,Tablet,Electronics,1,374.38,0.0%,Credit card,West,user5698@shop.com,Yes,Delivered  ASAP,
+16,1017,2023-11-27,9059,Headphones,Accessories,4,552.32,10.0%,Credit card,North,user9059@shop.net,No,Handle with care,EU
+17,1018,2023-06-01,1349,Smartphone,Electronics,2,276.65,20.0%,Debit card,North,user1149@shop.net,No, call customer,USD
+18,1019,2023-05-06,4990,Tablet,Electronics,5,833.77,10.0%,Debit card,South,user4788@example.com,Yes,,
+19,1020,2023-05-02,4362,Laptop,Electronics,3,344.53,25.0%,Debit card,East,user4089@shop.com,Yes,Delivered  ASAP,EU
+20,1021,2023-10-14,4394,Headphones,Accessories,2,630.22,10.0%,Debit card,East,user7467@retailco.io,No,Delivered  ASAP,USD
+21,1022,2023-12-26,4817,Tablet,Electronics,5,414.17,15.0%,Debit card,South,user7385@shop.net,Yes,Delivered  ASAP,USD
+22,1023,2023-07-20,1046,Tablet,Electronics,4,861.59,5.0%,Debit card,West,user5308@example.com,Yes,Delivered  ASAP,USD
+23,1024,2023-02-13,3370,Tablet,Electronics,1,758.04,15.0%,Credit card,West,user4924@mail.org,Yes,Urgent delivery ASAP,USD
+24,1025,2023-04-09,3858,Tablet,Electronics,-1,277.22,5.0%,Debit card,East,user9715@mail.com,Yes, call customer,USD
+25,1026,2023-12-14,1422,Tablet,Electronics,4,,5.0%,Debit card,South,user4080@example.com,No,,USD
+26,1027,2023-09-26,3238,Smartphone,Electronics,5,1316.72,0.0%,Debit card,West,user3238@mail.com,No,Handle with care,USD
+27,1028,2023-11-19,4898,Tablet,Electronics,-1,1162.56,5.0%,Debit card,North,user8460@shop.net,Yes,Delivered  ASAP,USD
+28,1029,2023-06-14,3854,Headphones,Accessories,4,497.68,25.0%,Debit card,East,user9060@retailco.io,No,Handle with care,
+29,1030,2023-11-11,1317,Smartwatch,Wearables,5,21.87,0.0%,Debit card,South,user1317@retailco.com,Yes,Needs review ASAP,EU
+30,1031,2023-06-22,9619,Smartwatch,Wearables,4,444.48,25.0%,Debit card,North,user9764@example.com,No, call customer,USD
+31,1032,2023-12-10,8802,Headphones,Accessories,3,1111.97,20.0%,Debit card,North,user2675@mail.org,Yes, call customer,EU
+32,1033,2023-05-22,9408,Smartwatch,Wearables,10,701.25,20.0%,Debit card,East,user3048@shop.com,No,Delivered  ASAP,
+33,1034,2023-06-22,4814,Laptop,Electronics,10,1496.7,25.0%,Credit card,East,user4814@example.com,Yes,Delivered  ASAP,EU
+34,1035,2023-09-05,1710,Tablet,Electronics,2,1101.37,0.0%,Credit card,North,user1241@shop.net,No, call customer,EU
+35,1036,2023-07-22,9543,Laptop,Electronics,5,234.34,0.0%,Credit card,South,user6601@shop.net,No,Handle with care,
+36,1037,2023-11-24,1510,Laptop,Electronics,5,45.63,15.0%,Debit card,East,user9165@mail.com,No,,USD
+37,1038,2023-10-19,7580,Smartwatch,Wearables,3,957.55,10.0%,Credit card,West,user1519@mail.com,No,Needs review ASAP,USD
+38,1039,2023-07-18,9032,Tablet,Electronics,-1,,5.0%,Credit card,East,user3393@example.com,Yes, call customer,USD
+39,1040,2023-05-10,2204,Laptop,Electronics,-1,1140.8,25.0%,Debit card,South,user7429@example.com,Yes,,
+40,1041,2023-07-26,3430,Laptop,Electronics,3,1275.02,10.0%,Credit card,South,user3975@retailco.io,Yes,Handle with care,USD
+41,1042,2023-10-21,7251,Laptop,Electronics,1,164.88,0.0%,Credit card,North,user7251@example.com,No,Urgent delivery ASAP,EU
+42,1043,2023-08-15,9984,Headphones,Accessories,4,635.53,10.0%,Credit card,West,user5078@shop.com,No,Delivered  ASAP,USD
+43,1044,2023-11-07,9692,Headphones,Accessories,-1,1459.11,25.0%,Debit card,South,user5049@example.com,Yes,Urgent delivery ASAP,EU
+44,1045,2023-08-18,8048,Laptop,Electronics,-2,,0.0%,Debit card,South,user8550@example.com,Yes, call customer,USD
+45,1046,2023-03-11,2874,Laptop,Electronics,3,75.41,20.0%,Debit card,North,user8746@shop.net,No,Handle with care,EU
+46,1047,2023-09-23,4522,Smartphone,Electronics,3,1346.96,0.0%,Credit card,East,user6293@retailco.com,Yes,Handle with care,
+47,1048,2023-02-27,4743,Laptop,Electronics,-1,1054.26,15.0%,Debit card,East,user9534@example.com,Yes,Handle with care,USD
+48,1049,2023-11-10,8430,Smartwatch,Wearables,1,693.1,5.0%,Credit card,North,user8884@mail.org,Yes,Handle with care,USD
+49,1050,2023-04-05,2557,Tablet,Electronics,5,875.35,20.0%,Credit card,North,user6905@example.com,Yes, call customer,EU
+50,1051,2023-01-08,5176,Smartphone,Electronics,-1,959.45,10.0%,Credit card,North,user2850@retailco.com,Yes,Delivered  ASAP,
+51,1052,2023-10-28,8770,Smartphone,Electronics,4,121.5,10.0%,Debit card,East,user6316@example.com,Yes,Urgent delivery ASAP,USD
+52,1053,2023-08-19,5523,Laptop,Electronics,4,658.12,20.0%,Credit card,West,user5523@example.com,Yes,Needs review ASAP,EU
+53,1054,2023-12-23,4982,Laptop,Electronics,-2,362.79,5.0%,Credit card,West,user4982@example.com,Yes,Delivered  ASAP,USD
+54,1055,2023-08-13,7105,Laptop,Electronics,3,1277.86,15.0%,Credit card,North,user8786@retailco.io,No,Handle with care,
+55,1056,2023-03-13,6400,Headphones,Accessories,-1,1054.08,0.0%,Debit card,West,user2466@retailco.io,Yes, call customer,USD
+56,1057,2023-02-25,9190,Headphones,Accessories,2,483.91,0.0%,Credit card,North,user9190@example.com,No,Handle with care,USD
+57,1058,2023-04-27,7929,Tablet,Electronics,1,358.08,20.0%,Credit card,North,user1983@example.com,Yes,Delivered  ASAP,EU
+58,1059,2023-01-18,3521,Smartphone,Electronics,1,212.81,5.0%,Credit card,West,user3521@example.com,No,Urgent delivery ASAP,USD
+59,1060,2023-02-15,6119,Laptop,Electronics,3,241.56,20.0%,Credit card,North,user8992@retailco.io,No,Urgent delivery ASAP,EU
+60,1061,2023-08-22,6690,Headphones,Accessories,1,679.85,25.0%,Debit card,North,user6690@shop.net,No,,USD
+61,1062,2023-09-20,3535,Tablet,Electronics,5,615.7,10.0%,Credit card,North,user1349@shop.net,Yes,,USD
+62,1063,2023-08-26,2773,Smartwatch,Wearables,3,1447.31,15.0%,Credit card,West,user3207@mail.com,Yes, call customer,EU
+63,1064,2023-09-15,7022,Tablet,Electronics,-1,683.36,10.0%,Debit card,East,user8951@shop.net,Yes,,
+64,1065,2023-12-28,4705,Laptop,Electronics,4,404.86,0.0%,Debit card,North,user9892@shop.net,No,Handle with care,USD
+65,1066,2023-08-09,1430,Tablet,Electronics,2,144.73,5.0%,Credit card,South,user4057@mail.org,Yes,Delivered  ASAP,USD
+66,1067,2023-11-09,5381,Laptop,Electronics,10,,10.0%,Debit card,West,user8674@mail.org,No, call customer,USD
+67,1068,2023-08-21,6062,Tablet,Electronics,2,330.38,25.0%,Debit card,North,user2128@retailco.com,No, call customer,USD
+68,1069,2023-05-15,3972,Headphones,Accessories,1,231.0,25.0%,Credit card,East,user5844@mail.org,No,Delivered  ASAP,EU
+69,1070,2023-12-10,7566,Laptop,Electronics,5,1452.92,0.0%,Credit card,South,user8439@example.com,No,,
+70,1071,2023-11-05,4039,Laptop,Electronics,5,775.05,5.0%,Debit card,North,user4039@example.com,No,Urgent delivery ASAP,USD
+71,1072,2023-09-03,1502,Tablet,Electronics,4,397.65,5.0%,Debit card,East,user4912@mail.com,No,,EU
+72,1073,2023-03-08,4524,Headphones,Accessories,5,56.31,15.0%,Credit card,South,user9830@shop.net,Yes,Delivered  ASAP,
+73,1074,2023-12-19,6585,Tablet,Electronics,1,1283.36,10.0%,Debit card,East,user9586@shop.net,Yes,Handle with care,EU
+74,1075,2023-02-14,6314,Smartphone,Electronics,2,151.14,0.0%,Credit card,East,user5638@mail.com,No,,USD
+75,1076,2023-06-18,1861,Laptop,Electronics,1,1207.81,10.0%,Credit card,West,user6276@example.com,No, call customer,EU
+76,1077,2023-07-02,1815,Headphones,Accessories,4,190.97,15.0%,Credit card,North,user9572@example.com,No,Needs review ASAP,USD
+77,1078,2023-07-13,3126,Smartphone,Electronics,10,1247.25,15.0%,Debit card,North,user3126@retailco.com,Yes,Needs review ASAP,EU
+78,1079,2023-12-01,7947,Headphones,Accessories,2,204.77,15.0%,Debit card,South,user4310@example.com,Yes,Urgent delivery ASAP,
+79,1080,2023-07-16,7785,Tablet,Electronics,3,564.64,15.0%,Credit card,South,user4139@example.com,No,Delivered  ASAP,USD
+80,1081,2023-06-10,9394,Headphones,Accessories,5,877.66,25.0%,Credit card,North,user7366@shop.net,Yes,Handle with care,USD
+81,1082,2023-07-20,2816,Tablet,Electronics,2,,5.0%,Debit card,North,user1804@mail.org,No, call customer,USD
+82,1083,2023-08-08,8972,Smartphone,Electronics,1,42.48,25.0%,Credit card,North,user2161@example.com,No,Needs review ASAP,USD
+83,1084,2023-07-16,1744,Laptop,Electronics,-2,304.65,5.0%,Credit card,South,user9051@example.com,Yes,,
+84,1085,2023-07-25,1897,Smartphone,Electronics,10,,20.0%,Debit card,South,user1994@mail.com,No, call customer,USD
+85,1086,2023-12-06,4460,Tablet,Electronics,2,1358.57,20.0%,Credit card,North,user7046@example.com,Yes,Handle with care,USD
+86,1087,2023-03-20,5742,Laptop,Electronics,3,192.57,5.0%,Credit card,West,user9667@example.com,No,Delivered  ASAP,
+87,1088,2023-01-13,5979,Laptop,Electronics,-1,85.45,10.0%,Credit card,West,user5979@example.com,Yes, call customer,
+88,1089,2023-10-22,8055,Smartwatch,Wearables,5,1234.31,25.0%,Debit card,West,user9511@example.com,Yes, call customer,
+89,1090,2023-02-21,4784,Laptop,Electronics,1,749.23,25.0%,Credit card,East,user4784@shop.net,Yes,,
+90,1091,2023-03-28,4770,Tablet,Electronics,2,1027.99,5.0%,Credit card,North,user4164@retailco.io,No,Handle with care,EU
+91,1092,2023-02-03,6802,Smartwatch,Wearables,1,537.38,15.0%,Credit card,North,user7802@example.com,No,Delivered  ASAP,EU
+92,1093,2023-07-11,1693,Tablet,Electronics,5,419.72,15.0%,Credit card,East,user8515@shop.com,Yes, call customer,
+93,1094,2023-11-08,3733,Tablet,Electronics,10,,0.0%,Debit card,East,user3733@retailco.com,No,Handle with care,USD
+94,1095,2023-07-09,6129,Tablet,Electronics,5,925.02,10.0%,Credit card,North,user9268@mail.org,No, call customer,EU
+95,1096,2023-05-27,7626,Laptop,Electronics,5,974.44,25.0%,Debit card,South,user9747@shop.net,No,Needs review ASAP,
+96,1097,2023-08-14,5743,Headphones,Accessories,4,623.87,25.0%,Debit card,North,user6163@mail.org,Yes,Needs review ASAP,
+97,1098,2023-06-15,6321,Headphones,Accessories,-1,100.86,20.0%,Debit card,South,user7755@shop.net,Yes,Delivered  ASAP,USD
+98,1099,2023-11-02,8538,Headphones,Accessories,-1,580.69,25.0%,Debit card,North,user4943@retailco.com,Yes,Needs review ASAP,
+99,1100,2023-04-07,2443,Laptop,Electronics,2,307.19,20.0%,Credit card,North,user5162@mail.com,No,Delivered  ASAP,EU
+100,1101,2023-10-05,4986,Smartphone,Electronics,4,949.82,25.0%,Credit card,South,user8331@shop.com,Yes, call customer,USD
+101,1102,2023-03-16,9584,Smartwatch,Wearables,-2,1484.21,15.0%,Debit card,South,user1567@mail.com,Yes,Urgent delivery ASAP,USD
+102,1103,2023-10-07,6083,Tablet,Electronics,5,724.73,5.0%,Credit card,North,user9480@retailco.io,No,Needs review ASAP,
+103,1104,2023-09-12,6456,Smartphone,Electronics,4,522.61,25.0%,Credit card,North,user1107@mail.org,No,Handle with care,USD
+104,1105,2023-03-20,4519,Smartphone,Electronics,5,588.69,15.0%,Debit card,North,user4519@mail.com,Yes,Handle with care,EU
+105,1106,2023-12-23,9693,Smartwatch,Wearables,-1,48.83,20.0%,Debit card,North,user5521@retailco.com,Yes,Delivered  ASAP,EU
+106,1107,2023-03-10,6724,Laptop,Electronics,3,53.66,20.0%,Credit card,West,user1618@shop.net,No,Urgent delivery ASAP,USD
+107,1108,2023-01-10,3419,Headphones,Accessories,2,97.3,25.0%,Credit card,East,user3557@retailco.io,No, call customer,
+108,1109,2023-10-22,7014,Tablet,Electronics,5,798.85,20.0%,Debit card,West,user7014@retailco.io,Yes,,EU
+109,1110,2023-07-23,3842,Tablet,Electronics,1,,15.0%,Credit card,West,user5198@mail.com,Yes,Handle with care,USD
+110,1111,2023-02-20,2234,Tablet,Electronics,-2,379.31,0.0%,Credit card,South,user7550@retailco.com,Yes,Urgent delivery ASAP,EU
+111,1112,2023-02-23,9095,Laptop,Electronics,10,407.13,10.0%,Debit card,West,user6319@shop.net,No,Handle with care,USD
+112,1113,2023-11-20,8354,Tablet,Electronics,-1,1148.43,10.0%,Debit card,West,user8999@example.com,Yes,Delivered  ASAP,EU
+113,1114,2023-10-26,6295,Smartphone,Electronics,3,867.78,5.0%,Debit card,North,user1612@shop.com,No,Delivered  ASAP,
+114,1115,2023-06-18,8205,Laptop,Electronics,-1,538.66,15.0%,Debit card,West,user1916@mail.org,Yes,,EU
+115,1116,2023-11-12,5961,Smartwatch,Wearables,-1,272.39,5.0%,Credit card,South,user8115@shop.com,Yes,Delivered  ASAP,USD
+116,1117,2023-09-21,6766,Laptop,Electronics,1,1211.25,15.0%,Credit card,North,user4714@example.com,No,,USD
+117,1118,2023-01-28,1886,Headphones,Accessories,4,,15.0%,Debit card,South,user1886@mail.com,Yes, call customer,USD
+118,1119,2023-08-04,1616,Headphones,Accessories,2,1058.14,15.0%,Debit card,East,user6231@retailco.io,Yes,Delivered  ASAP,USD
+119,1120,2023-06-21,5703,Laptop,Electronics,4,1421.86,0.0%,Credit card,West,user9231@retailco.io,No,Handle with care,EU
+120,1121,2023-12-05,2479,Tablet,Electronics,10,849.03,25.0%,Debit card,West,user1827@shop.com,No,Delivered  ASAP,EU
+121,1122,2023-03-24,7299,Tablet,Electronics,10,1256.68,0.0%,Credit card,South,user9269@example.com,No,Needs review ASAP,
+122,1123,2023-11-09,1672,Headphones,Accessories,4,817.77,0.0%,Debit card,East,user8076@mail.com,No, call customer,EU
+123,1124,2023-09-25,4084,Headphones,Accessories,-2,740.75,0.0%,Debit card,South,user3425@retailco.io,Yes, call customer,USD
+124,1125,2023-08-21,9214,Headphones,Accessories,-1,93.69,20.0%,Debit card,North,user2352@shop.com,Yes,Urgent delivery ASAP,EU
+125,1126,2023-06-28,8381,Headphones,Accessories,-2,39.69,25.0%,Debit card,North,user9980@shop.net,Yes,Handle with care,
+126,1127,2023-02-09,6626,Laptop,Electronics,4,11.02,20.0%,Credit card,North,user2393@shop.com,No, call customer,EU
+127,1128,2023-04-25,3136,Tablet,Electronics,1,1211.6,25.0%,Credit card,North,user3136@retailco.com,No,Urgent delivery ASAP,USD
+128,1129,2023-10-25,1641,Tablet,Electronics,2,1078.24,10.0%,Credit card,West,user4245@shop.com,No,Needs review ASAP,USD
+129,1130,2023-06-01,8199,Tablet,Electronics,1,98.74,0.0%,Credit card,North,user4212@retailco.io,Yes, call customer,EU
+130,1131,2023-06-06,3600,Headphones,Accessories,5,884.05,15.0%,Debit card,South,user2173@mail.com,No,Urgent delivery ASAP,EU
+131,1132,2023-12-04,5634,Laptop,Electronics,2,1163.81,20.0%,Debit card,East,user6298@example.com,No,Needs review ASAP,USD
+132,1133,2023-06-09,6543,Headphones,Accessories,1,1441.23,25.0%,Debit card,South,user7776@shop.net,Yes,Delivered  ASAP,USD
+133,1134,2023-12-09,6482,Tablet,Electronics,5,1059.76,25.0%,Debit card,South,user6706@retailco.io,No,Delivered  ASAP,
+134,1135,2023-01-17,7333,Smartphone,Electronics,2,883.16,0.0%,Credit card,North,user6644@example.com,No, call customer,USD
+135,1136,2023-02-26,3463,Smartphone,Electronics,5,459.63,5.0%,Debit card,East,user3773@mail.com,Yes,Needs review ASAP,EU
+136,1137,2023-08-18,3389,Headphones,Accessories,2,1464.03,10.0%,Credit card,West,user3389@shop.com,Yes,Handle with care,
+137,1138,2023-12-28,6731,Smartphone,Electronics,-1,1189.85,10.0%,Credit card,South,user4825@retailco.io,Yes, call customer,
+138,1139,2023-08-26,7421,Smartwatch,Wearables,-1,977.28,10.0%,Debit card,South,user3555@example.com,Yes,Delivered  ASAP,EU
+139,1140,2023-02-10,2388,Smartwatch,Wearables,1,1063.7,0.0%,Debit card,West,user1893@retailco.io,No,Handle with care,USD
+140,1141,2023-07-23,6381,Laptop,Electronics,2,342.62,15.0%,Credit card,North,user5713@example.com,Yes,Urgent delivery ASAP,EU
+141,1142,2023-05-22,9624,Laptop,Electronics,3,573.79,25.0%,Credit card,East,user2823@mail.com,Yes,Delivered  ASAP,USD
+142,1143,2023-06-16,7937,Smartphone,Electronics,10,199.75,15.0%,Debit card,West,user8719@example.com,Yes,Needs review ASAP,USD
+143,1144,2023-09-12,6940,Smartwatch,Wearables,4,1423.69,20.0%,Debit card,West,user4424@retailco.io,Yes, call customer,
+144,1145,2023-12-18,4509,Smartwatch,Wearables,5,,0.0%,Debit card,West,user9952@mail.com,Yes, call customer,USD
+145,1146,2023-06-23,8967,Tablet,Electronics,4,281.3,15.0%,Debit card,West,user3315@example.com,No,Needs review ASAP,USD
+146,1147,2023-10-05,3253,Laptop,Electronics,10,1382.35,5.0%,Debit card,West,user9631@example.com,No,Delivered  ASAP,EU
+147,1148,2023-04-19,3790,Tablet,Electronics,1,963.07,0.0%,Credit card,North,user3790@example.com,No,Needs review ASAP,USD
+148,1149,2023-06-18,2657,Headphones,Accessories,3,1405.66,0.0%,Credit card,West,user4288@mail.com,Yes, call customer,EU
+149,1150,2023-04-28,9626,Headphones,Accessories,-1,503.44,25.0%,Credit card,West,user8617@example.com,Yes,Delivered  ASAP,USD
+150,1151,2023-05-24,3147,Tablet,Electronics,1,364.61,15.0%,Credit card,West,user7367@mail.org,No,,USD
+151,1152,2023-09-20,3658,Smartwatch,Wearables,2,260.15,20.0%,Debit card,West,user2767@example.com,Yes,Delivered  ASAP,USD
+152,1153,2023-02-27,3712,Smartphone,Electronics,1,1234.28,5.0%,Credit card,South,user7332@retailco.com,No,Handle with care,USD
+153,1154,2023-08-05,7731,Tablet,Electronics,1,675.48,0.0%,Credit card,East,user9331@example.com,Yes,Urgent delivery ASAP,USD
+154,1155,2023-03-10,4891,Smartwatch,Wearables,5,322.43,0.0%,Credit card,South,user8940@example.com,No,Needs review ASAP,USD
+155,1156,2023-12-18,8355,Tablet,Electronics,5,532.22,15.0%,Credit card,South,user4258@shop.com,No,Urgent delivery ASAP,USD
+156,1157,2023-05-02,6070,Laptop,Electronics,10,,15.0%,Debit card,South,user1651@retailco.io,No,Delivered  ASAP,USD
+157,1158,2023-09-17,4178,Tablet,Electronics,1,585.05,5.0%,Debit card,West,user6465@shop.com,No,Delivered  ASAP,
+158,1159,2023-11-28,8218,Headphones,Accessories,10,1453.96,5.0%,Credit card,North,user3572@example.com,Yes,Delivered  ASAP,
+159,1160,2023-02-28,7256,Tablet,Electronics,3,744.69,5.0%,Credit card,North,user6765@mail.org,No,Handle with care,
+160,1161,2023-10-10,3655,Smartphone,Electronics,4,533.33,25.0%,Credit card,North,user4869@mail.com,No,Urgent delivery ASAP,
+161,1162,2023-08-15,3267,Headphones,Accessories,-2,161.13,10.0%,Credit card,West,user5221@shop.com,Yes,Urgent delivery ASAP,
+162,1163,2023-02-03,5590,Smartwatch,Wearables,4,1185.21,15.0%,Debit card,South,user5590@retailco.io,Yes,Needs review ASAP,EU
+163,1164,2023-08-04,7081,Laptop,Electronics,10,252.36,20.0%,Credit card,South,user6599@shop.net,No,Delivered  ASAP,USD
+164,1165,2023-07-16,9452,Laptop,Electronics,1,,5.0%,Debit card,West,user2438@shop.net,No,Needs review ASAP,USD
+165,1166,2023-10-14,3626,Smartwatch,Wearables,5,449.41,10.0%,Credit card,North,user7837@retailco.io,No,Handle with care,USD
+166,1167,2023-03-05,9410,Laptop,Electronics,10,399.08,15.0%,Debit card,West,user7987@mail.org,No,,USD
+167,1168,2023-05-03,2502,Laptop,Electronics,5,120.56,5.0%,Credit card,East,user8359@retailco.io,Yes, call customer,EU
+168,1169,2023-02-18,6727,Tablet,Electronics,5,1333.02,25.0%,Debit card,North,user3270@retailco.io,Yes, call customer,EU
+169,1170,2023-10-20,7495,Smartphone,Electronics,10,,20.0%,Debit card,North,user6062@retailco.com,No,Handle with care,USD
+170,1171,2023-04-25,7326,Smartphone,Electronics,10,513.55,25.0%,Debit card,East,user3378@retailco.io,No,,
+171,1172,2023-07-15,1461,Laptop,Electronics,1,1059.71,10.0%,Credit card,West,user2111@example.com,Yes,Delivered  ASAP,
+172,1173,2023-05-28,6493,Tablet,Electronics,-2,1414.24,20.0%,Debit card,East,user6203@retailco.com,Yes, call customer,EU
+173,1174,2023-07-10,6221,Tablet,Electronics,2,914.9,5.0%,Debit card,North,user6221@shop.com,Yes,Urgent delivery ASAP,
+174,1175,2023-10-02,8740,Headphones,Accessories,3,244.08,25.0%,Debit card,North,user5970@shop.net,No,Urgent delivery ASAP,USD
+175,1176,2023-12-04,8685,Tablet,Electronics,3,503.33,10.0%,Debit card,East,user3489@retailco.com,No,Needs review ASAP,EU
+176,1177,2023-07-11,2298,Laptop,Electronics,10,619.83,5.0%,Credit card,West,user3155@retailco.com,No,,USD
+177,1178,2023-11-03,3449,Smartwatch,Wearables,10,994.29,25.0%,Credit card,North,user5372@retailco.io,No,Needs review ASAP,USD
+178,1179,2023-04-06,9647,Smartwatch,Wearables,-1,363.95,5.0%,Credit card,North,user4783@example.com,Yes,Delivered  ASAP,USD
+179,1180,2023-02-06,2302,Headphones,Accessories,-1,595.42,25.0%,Debit card,North,user2302@shop.net,Yes,Urgent delivery ASAP,
+180,1181,2023-07-28,5934,Smartphone,Electronics,3,238.85,25.0%,Debit card,South,user9230@shop.net,No,Needs review ASAP,USD
+181,1182,2023-05-02,4014,Smartphone,Electronics,4,15.69,10.0%,Credit card,East,user4014@shop.com,Yes,,USD
+182,1183,2023-05-23,8489,Laptop,Electronics,-2,448.88,20.0%,Credit card,East,user8763@retailco.io,Yes,Delivered  ASAP,
+183,1184,2023-12-28,4166,Headphones,Accessories,10,307.52,25.0%,Credit card,West,user4166@retailco.com,No,Delivered  ASAP,USD
+184,1185,2023-02-22,9782,Tablet,Electronics,2,318.36,25.0%,Credit card,South,user7694@example.com,Yes,,USD
+185,1186,2023-05-19,4963,Tablet,Electronics,-1,1465.82,20.0%,Credit card,North,user7767@retailco.io,Yes,Needs review ASAP,
+186,1187,2023-07-04,4351,Tablet,Electronics,2,1267.22,15.0%,Credit card,West,user4351@example.com,No,Handle with care,USD
+187,1188,2023-04-21,6780,Laptop,Electronics,-2,1179.47,20.0%,Credit card,South,user8197@shop.net,Yes,Needs review ASAP,
+188,1189,2023-05-27,4068,Laptop,Electronics,10,738.75,15.0%,Credit card,North,user8496@retailco.com,No, call customer,USD
+189,1190,2023-02-02,9576,Headphones,Accessories,3,145.79,25.0%,Debit card,North,user7633@example.com,No,,
+190,1191,2023-05-22,6126,Laptop,Electronics,-1,285.47,10.0%,Credit card,West,user6126@shop.com,Yes,Urgent delivery ASAP,
+191,1192,2023-08-04,9312,Smartwatch,Wearables,10,560.41,5.0%,Credit card,East,user9530@example.com,Yes,Needs review ASAP,
+192,1193,2023-12-25,7397,Tablet,Electronics,-1,76.48,25.0%,Credit card,South,user8485@example.com,Yes,Handle with care,
+193,1194,2023-05-17,9498,Laptop,Electronics,2,702.94,0.0%,Credit card,South,user9498@shop.com,No,Needs review ASAP,EU
+194,1195,2023-08-15,7116,Smartwatch,Wearables,4,,10.0%,Credit card,South,user7347@example.com,No,Urgent delivery ASAP,USD
+195,1196,2023-10-02,6850,Tablet,Electronics,5,235.18,20.0%,Credit card,North,user5770@shop.com,No,Delivered  ASAP,USD
+196,1197,2023-12-11,2698,Headphones,Accessories,1,137.7,15.0%,Debit card,East,user5989@mail.com,Yes,Needs review ASAP,USD
+197,1198,2023-05-01,6447,Tablet,Electronics,2,1214.19,25.0%,Credit card,North,user3727@shop.net,Yes,Delivered  ASAP,
+198,1199,2023-04-22,1893,Tablet,Electronics,4,1456.35,5.0%,Credit card,North,user1893@retailco.com,Yes, call customer,EU
+199,1200,2023-10-21,3868,Tablet,Electronics,1,834.87,20.0%,Debit card,West,user8400@example.com,No,Urgent delivery ASAP,
+200,1201,2023-10-02,8840,Tablet,Electronics,3,1229.42,20.0%,Credit card,North,user3945@retailco.com,Yes,Handle with care,
+201,1202,2023-08-27,3209,Tablet,Electronics,3,1448.79,25.0%,Credit card,West,user7775@mail.com,No,Needs review ASAP,
+202,1203,2023-05-06,8498,Laptop,Electronics,-1,863.34,25.0%,Debit card,South,user1408@retailco.com,Yes,Delivered  ASAP,EU
+203,1204,2023-07-21,1717,Smartphone,Electronics,1,719.63,15.0%,Credit card,South,user4308@shop.com,No,Handle with care,USD
+204,1205,2023-02-16,6170,Laptop,Electronics,5,598.26,25.0%,Debit card,East,user5097@mail.org,Yes,Delivered  ASAP,USD
+205,1206,2023-11-07,9897,Smartwatch,Wearables,3,758.13,20.0%,Debit card,West,user3024@example.com,No,Delivered  ASAP,EU
+206,1207,2023-11-04,4131,Tablet,Electronics,1,189.22,25.0%,Debit card,East,user8362@mail.com,Yes,Delivered  ASAP,
+207,1208,2023-06-28,1783,Tablet,Electronics,1,267.59,20.0%,Debit card,West,user9582@shop.net,No,Needs review ASAP,EU
+208,1209,2023-05-22,3039,Tablet,Electronics,4,1458.53,15.0%,Credit card,East,user7204@shop.com,No,Delivered  ASAP,EU
+209,1210,2023-09-02,7553,Laptop,Electronics,5,198.02,25.0%,Credit card,South,user3799@mail.org,No, call customer,
+210,1211,2023-11-02,7334,Laptop,Electronics,3,126.77,25.0%,Debit card,South,user3656@retailco.io,Yes, call customer,
+211,1212,2023-06-04,9129,Smartwatch,Wearables,5,310.86,20.0%,Credit card,East,user1840@shop.net,Yes,Urgent delivery ASAP,EU
+212,1213,2023-09-27,9507,Headphones,Accessories,-1,1252.82,20.0%,Debit card,North,user6071@shop.net,Yes,,USD
+213,1214,2023-11-28,7955,Smartwatch,Wearables,5,486.43,25.0%,Debit card,West,user3960@example.com,Yes,Handle with care,USD
+214,1215,2023-08-14,3956,Laptop,Electronics,3,139.67,10.0%,Credit card,East,user4323@example.com,Yes, call customer,
+215,1216,2023-04-17,2680,Headphones,Accessories,4,832.56,25.0%,Credit card,East,user1200@shop.com,No,Handle with care,USD
+216,1217,2023-10-25,5843,Smartphone,Electronics,10,784.34,5.0%,Debit card,West,user9169@example.com,No, call customer,USD
+217,1218,2023-11-15,7981,Laptop,Electronics,4,1181.96,0.0%,Credit card,South,user4897@retailco.com,Yes,Needs review ASAP,
+218,1219,2023-04-09,6759,Tablet,Electronics,-1,177.65,15.0%,Credit card,North,user8434@shop.com,Yes,Needs review ASAP,EU
+219,1220,2023-03-10,2300,Laptop,Electronics,10,230.82,10.0%,Credit card,West,user2300@example.com,Yes,Needs review ASAP,USD
+220,1221,2023-12-16,6776,Tablet,Electronics,4,,20.0%,Credit card,North,user9967@mail.org,Yes, call customer,USD
+221,1222,2023-01-21,5498,Tablet,Electronics,5,1180.76,0.0%,Credit card,East,user1801@retailco.io,Yes,,USD
+222,1223,2023-04-23,1939,Smartphone,Electronics,5,1318.06,25.0%,Debit card,East,user1902@mail.com,No,Urgent delivery ASAP,USD
+223,1224,2023-05-18,7655,Laptop,Electronics,10,580.73,0.0%,Credit card,West,user3381@example.com,No,Handle with care,
+224,1225,2023-09-14,3621,Smartphone,Electronics,3,862.31,10.0%,Debit card,East,user6424@example.com,Yes,Handle with care,
+225,1226,2023-04-27,2784,Laptop,Electronics,3,65.82,25.0%,Credit card,East,user2784@shop.net,No,Needs review ASAP,USD
+226,1227,2023-08-17,8179,Tablet,Electronics,1,610.43,25.0%,Debit card,West,user3643@mail.org,Yes,Needs review ASAP,
+227,1228,2023-08-23,8460,Smartwatch,Wearables,10,67.79,20.0%,Debit card,North,user8460@mail.com,Yes,Urgent delivery ASAP,USD
+228,1229,2023-09-23,7001,Tablet,Electronics,4,,0.0%,Debit card,East,user2525@mail.org,Yes, call customer,USD
+229,1230,2023-07-27,1530,Tablet,Electronics,-2,1121.17,10.0%,Debit card,East,user7038@shop.com,Yes,Delivered  ASAP,USD
+230,1231,2023-08-08,8371,Tablet,Electronics,-2,,5.0%,Credit card,West,user8001@example.com,Yes,Urgent delivery ASAP,USD
+231,1232,2023-09-05,2259,Headphones,Accessories,-1,513.42,20.0%,Credit card,East,user8713@retailco.com,Yes,Needs review ASAP,USD
+232,1233,2023-04-20,5496,Tablet,Electronics,10,473.31,20.0%,Credit card,North,user5496@mail.com,No, call customer,
+233,1234,2023-12-05,6150,Laptop,Electronics,-2,,0.0%,Credit card,North,user9595@retailco.io,Yes,Handle with care,USD
+234,1235,2023-05-25,2858,Headphones,Accessories,-1,1459.02,5.0%,Debit card,South,user1953@example.com,Yes,Urgent delivery ASAP,EU
+235,1236,2023-06-26,9176,Laptop,Electronics,1,210.23,10.0%,Debit card,West,user8924@mail.com,Yes,Delivered  ASAP,
+236,1237,2023-05-27,2929,Tablet,Electronics,-2,1163.31,5.0%,Credit card,North,user6185@mail.org,Yes, call customer,USD
+237,1238,2023-05-24,8311,Smartwatch,Wearables,5,411.44,20.0%,Credit card,North,user3125@shop.com,No,,
+238,1239,2023-10-28,5678,Smartphone,Electronics,1,911.42,20.0%,Credit card,North,user9069@retailco.io,Yes,,USD
+239,1240,2023-03-15,9047,Tablet,Electronics,3,290.02,25.0%,Credit card,North,user5759@retailco.com,Yes,Handle with care,EU
+240,1241,2023-12-08,2936,Headphones,Accessories,3,1371.01,25.0%,Credit card,East,user2936@example.com,Yes,Delivered  ASAP,
+241,1242,2023-09-25,8406,Tablet,Electronics,4,1114.01,5.0%,Credit card,South,user2932@retailco.com,Yes,Urgent delivery ASAP,USD
+242,1243,2023-07-15,8292,Tablet,Electronics,4,1233.32,20.0%,Debit card,East,user7783@example.com,No,Needs review ASAP,EU
+243,1244,2023-04-23,6236,Laptop,Electronics,1,107.77,5.0%,Debit card,North,user6728@retailco.com,Yes,Needs review ASAP,
+244,1245,2023-10-13,2063,Tablet,Electronics,3,212.12,25.0%,Credit card,West,user4296@mail.org,No,Delivered  ASAP,USD
+245,1246,2023-02-07,5914,Headphones,Accessories,2,268.87,15.0%,Credit card,North,user2111@mail.org,Yes,Urgent delivery ASAP,EU
+246,1247,2023-12-25,3852,Headphones,Accessories,-1,1257.1,0.0%,Credit card,West,user9301@mail.com,Yes,Delivered  ASAP,EU
+247,1248,2023-07-17,2988,Tablet,Electronics,-1,59.28,20.0%,Credit card,South,user2865@mail.org,Yes,Urgent delivery ASAP,USD
+248,1249,2023-08-02,4878,Headphones,Accessories,-2,1377.87,0.0%,Debit card,West,user7488@example.com,Yes,,EU
+249,1250,2023-09-19,4178,Tablet,Electronics,2,418.23,10.0%,Credit card,South,user4178@mail.org,No,Urgent delivery ASAP,
+250,1251,2023-02-28,7044,Smartwatch,Wearables,1,762.64,20.0%,Credit card,North,user8849@shop.com,No,Urgent delivery ASAP,USD
+251,1252,2023-02-17,3126,Smartphone,Electronics,10,1024.95,0.0%,Credit card,South,user3224@shop.net,No,Needs review ASAP,EU
+252,1253,2023-01-24,2077,Tablet,Electronics,-2,564.98,25.0%,Credit card,South,user8546@mail.com,Yes,Handle with care,
+253,1254,2023-07-17,8842,Smartwatch,Wearables,-2,274.6,20.0%,Credit card,North,user7782@example.com,Yes, call customer,
+254,1255,2023-02-16,7708,Laptop,Electronics,4,884.45,0.0%,Credit card,North,user6169@example.com,No, call customer,USD
+255,1256,2023-06-25,6434,Laptop,Electronics,5,522.93,20.0%,Credit card,North,user6434@mail.com,Yes,Needs review ASAP,USD
+256,1257,2023-03-11,2215,Tablet,Electronics,10,,25.0%,Debit card,South,user3446@mail.com,No,,USD
+257,1258,2023-11-28,9476,Laptop,Electronics,-1,434.75,25.0%,Debit card,North,user6556@shop.net,Yes,Delivered  ASAP,
+258,1259,2023-07-28,7382,Smartphone,Electronics,2,83.98,5.0%,Credit card,East,user7382@retailco.com,No,Needs review ASAP,EU
+259,1260,2023-09-02,3981,Tablet,Electronics,-1,1287.1,15.0%,Credit card,South,user6050@mail.com,Yes,Delivered  ASAP,EU
+260,1261,2023-02-22,1907,Laptop,Electronics,-1,1019.77,5.0%,Credit card,South,user5448@shop.com,Yes,Needs review ASAP,USD
+261,1262,2023-04-24,5982,Laptop,Electronics,4,980.87,25.0%,Credit card,West,user9143@retailco.io,Yes, call customer,USD
+262,1263,2023-07-16,4694,Smartphone,Electronics,3,,25.0%,Debit card,North,user8404@mail.org,No,Handle with care,USD
+263,1264,2023-08-22,9501,Headphones,Accessories,1,716.4,25.0%,Debit card,East,user9603@mail.org,No,Handle with care,EU
+264,1265,2023-02-01,5105,Laptop,Electronics,1,974.58,0.0%,Debit card,North,user2838@mail.com,No,Needs review ASAP,USD
+265,1266,2023-10-01,5496,Smartwatch,Wearables,-2,343.42,5.0%,Credit card,South,user4311@example.com,Yes,Needs review ASAP,USD
+266,1267,2023-06-14,9740,Smartwatch,Wearables,1,1071.98,25.0%,Debit card,South,user9290@example.com,Yes, call customer,USD
+267,1268,2023-04-17,3762,Laptop,Electronics,2,641.47,0.0%,Debit card,North,user9192@retailco.io,Yes,Delivered  ASAP,
+268,1269,2023-10-22,3526,Tablet,Electronics,1,1278.86,5.0%,Credit card,West,user6572@shop.net,No,Delivered  ASAP,
+269,1270,2023-03-06,6531,Tablet,Electronics,10,385.48,20.0%,Debit card,West,user6363@retailco.com,Yes, call customer,
+270,1271,2023-10-28,9456,Smartwatch,Wearables,2,460.2,5.0%,Credit card,South,user9456@retailco.io,Yes,,
+271,1272,2023-10-22,2330,Tablet,Electronics,-1,880.89,15.0%,Debit card,East,user1598@shop.com,Yes,,USD
+272,1273,2023-08-19,5336,Headphones,Accessories,1,772.16,25.0%,Credit card,North,user9558@example.com,No,Needs review ASAP,USD
+273,1274,2023-04-21,7825,Laptop,Electronics,5,846.57,10.0%,Debit card,West,user6095@example.com,No,Handle with care,USD
+274,1275,2023-08-13,9159,Headphones,Accessories,5,454.73,25.0%,Debit card,East,user6460@shop.com,No,,USD
+275,1276,2023-08-18,5949,Tablet,Electronics,1,727.79,0.0%,Debit card,East,user2689@mail.com,No,,USD
+276,1277,2023-02-15,7653,Headphones,Accessories,-1,1482.66,20.0%,Credit card,South,user6114@retailco.io,Yes,Urgent delivery ASAP,USD
+277,1278,2023-10-26,1981,Tablet,Electronics,2,1293.62,25.0%,Debit card,East,user4285@retailco.io,No,Handle with care,USD
+278,1279,2023-12-09,8933,Headphones,Accessories,3,987.62,25.0%,Debit card,East,user5532@mail.com,No,Delivered  ASAP,USD
+279,1280,2023-05-07,3353,Tablet,Electronics,-2,290.66,10.0%,Credit card,South,user2927@mail.org,Yes,Delivered  ASAP,EU
+280,1281,2023-08-04,6231,Smartwatch,Wearables,3,1350.53,0.0%,Credit card,South,user3580@mail.com,No, call customer,
+281,1282,2023-07-19,6658,Smartwatch,Wearables,2,994.19,25.0%,Debit card,East,user1249@example.com,No,Delivered  ASAP,EU
+282,1283,2023-10-22,9888,Smartphone,Electronics,3,1084.71,0.0%,Credit card,South,user9888@mail.org,No,Urgent delivery ASAP,
+283,1284,2023-01-25,2739,Smartphone,Electronics,2,1496.23,15.0%,Debit card,West,user5440@retailco.io,No,Needs review ASAP,USD
+284,1285,2023-05-01,3007,Smartphone,Electronics,-1,1361.3,25.0%,Debit card,South,user5011@retailco.com,Yes,Needs review ASAP,
+285,1286,2023-11-14,3308,Tablet,Electronics,2,588.53,5.0%,Credit card,South,user6101@mail.com,Yes,Delivered  ASAP,USD
+286,1287,2023-10-24,1831,Smartphone,Electronics,-1,878.71,5.0%,Credit card,North,user1831@retailco.com,Yes,Handle with care,EU
+287,1288,2023-05-25,7850,Laptop,Electronics,-2,521.32,20.0%,Debit card,North,user8712@example.com,Yes,Urgent delivery ASAP,EU
+288,1289,2023-10-26,3616,Laptop,Electronics,4,1032.61,25.0%,Credit card,East,user7284@example.com,No,Delivered  ASAP,
+289,1290,2023-04-21,6123,Smartwatch,Wearables,1,1360.72,25.0%,Credit card,North,user7987@shop.net,No,Delivered  ASAP,USD
+290,1291,2023-10-17,9163,Laptop,Electronics,5,765.9,25.0%,Debit card,West,user8304@mail.org,No,Needs review ASAP,EU
+291,1292,2023-11-14,6055,Smartwatch,Wearables,1,1262.55,0.0%,Debit card,South,user6444@retailco.com,No, call customer,EU
+292,1293,2023-05-26,8629,Tablet,Electronics,-1,447.74,20.0%,Credit card,North,user8629@retailco.com,Yes,Handle with care,
+293,1294,2023-01-19,9281,Laptop,Electronics,-2,200.64,0.0%,Credit card,West,user8672@example.com,Yes,Urgent delivery ASAP,USD
+294,1295,2023-12-05,4524,Smartwatch,Wearables,-1,1090.53,20.0%,Debit card,East,user6085@shop.com,Yes,Urgent delivery ASAP,EU
+295,1296,2023-05-26,1828,Tablet,Electronics,-2,1420.92,20.0%,Debit card,East,user4796@retailco.io,Yes,,USD
+296,1297,2023-03-07,8710,Laptop,Electronics,3,985.11,10.0%,Credit card,East,user5227@mail.com,No,Handle with care,EU
+297,1298,2023-09-12,2761,Headphones,Accessories,-2,539.37,25.0%,Credit card,North,user4004@mail.org,Yes,Needs review ASAP,USD
+298,1299,2023-09-09,8426,Smartwatch,Wearables,5,636.5,10.0%,Credit card,East,user8426@shop.com,Yes, call customer,USD
+299,1300,2023-05-27,6992,Laptop,Electronics,5,563.81,25.0%,Credit card,West,user2070@shop.com,Yes, call customer,USD
+300,1039,2023-05-24,7563,Smartphone,Electronics,5,701.0,5.0%,Credit card,North,user6758@shop.com,Yes,,USD
+301,1077,2023-02-15,4189,Smartphone,Electronics,1,711.1,5.0%,Credit card,South,user3798@mail.org,Yes,Needs review ASAP,USD
+302,1280,2023-03-25,2204,Laptop,Electronics,3,713.61,10.0%,Debit card,West,user3087@example.com,Yes,Delivered  ASAP,EU
+303,1019,2023-11-25,5582,Smartwatch,Wearables,2,755.71,5.0%,Debit card,East,user2752@mail.com,No,,
+304,1190,2023-09-12,2946,Tablet,Electronics,1,799.46,20.0%,Credit card,East,user5949@shop.com,No,Needs review ASAP,
+305,1299,2023-01-07,7453,Smartwatch,Wearables,5,90.55,20.0%,Debit card,South,user7773@retailco.io,Yes,Delivered  ASAP,EU
+306,1283,2023-09-04,6555,Laptop,Electronics,-1,214.67,20.0%,Debit card,South,user9977@retailco.com,Yes,Needs review ASAP,EU
+307,1076,2023-06-21,3363,Laptop,Electronics,3,520.58,25.0%,Debit card,South,user7288@example.com,Yes, call customer,
+308,1221,2023-10-24,7576,Laptop,Electronics,2,223.4,0.0%,Debit card,West,user4411@shop.com,Yes,Handle with care,EU
+309,1066,2023-02-22,6606,Tablet,Electronics,-1,1170.62,20.0%,Credit card,North,user6606@retailco.io,Yes,Needs review ASAP,
+310,1022,2023-08-01,2276,Smartwatch,Wearables,5,505.62,10.0%,Credit card,North,user2276@shop.com,No,Handle with care,EU
+311,1158,2023-09-11,8761,Headphones,Accessories,-2,476.99,25.0%,Debit card,North,user8584@mail.com,Yes,Needs review ASAP,USD
+312,1187,2023-04-21,9446,Laptop,Electronics,3,17.02,0.0%,Debit card,East,user8294@retailco.io,Yes,Delivered  ASAP,USD
+313,1021,2023-11-27,6218,Headphones,Accessories,1,321.98,0.0%,Credit card,North,user7648@example.com,No,Handle with care,EU
+314,1184,2023-12-26,5902,Laptop,Electronics,1,868.66,10.0%,Debit card,South,user7208@mail.com,Yes,Urgent delivery ASAP,EU
